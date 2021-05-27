@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="god_bg.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bg0000" x="0" y="0" width="3093" height="2041"/>
+	<SubTexture name="broken_techo0000" x="3093" y="0" width="2191" height="155"/>
+	<SubTexture name="cloud_big0000" x="0" y="2041" width="3471" height="617"/>
+	<SubTexture name="cloud_smol0000" x="3471" y="2041" width="2997" height="549"/>
+	<SubTexture name="deb_ceil0000" x="6468" y="2041" width="1067" height="767"/>
+	<SubTexture name="deb_norm0000" x="7535" y="2041" width="149" height="123"/>
+	<SubTexture name="deb_rect0000" x="7684" y="2041" width="427" height="421"/>
+	<SubTexture name="deb_small0000" x="0" y="2808" width="121" height="123"/>
+	<SubTexture name="deb_spike0000" x="121" y="2808" width="181" height="313"/>
+	<SubTexture name="deb_tiny0000" x="302" y="2808" width="83" height="97"/>
+	<SubTexture name="gf_rock0000" x="385" y="2808" width="553" height="197"/>
+	<SubTexture name="rock0000" x="938" y="2808" width="789" height="643"/>
+</TextureAtlas>

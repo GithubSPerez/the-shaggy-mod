@@ -18,12 +18,13 @@ class FreeplayState extends MusicBeatState
 
 	var selector:FlxText;
 	var curSelected:Int = 0;
-	var curDifficulty:Int = 1;
+	var curDifficulty:Int = 2;
 
 	var scoreText:FlxText;
 	var diffText:FlxText;
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
+	public static var addedGodEater:Bool = false;
 
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
@@ -32,12 +33,14 @@ class FreeplayState extends MusicBeatState
 
 	override function create()
 	{
+		/*
 		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglist'));
 
 		for (i in 0...initSonglist.length)
 		{
 			songs.push(new SongMetadata(initSonglist[i], 1, 'gf'));
 		}
+		*/
 
 		/* 
 			if (FlxG.sound.music != null)
@@ -53,7 +56,9 @@ class FreeplayState extends MusicBeatState
 		isDebug = true;
 		#end
 
-			addWeek(['Where-are-you', 'Eruption', 'Kaio-ken'], 1, ['dad']);
+			addWeek(['Where-are-you', 'Eruption', 'Kaio-ken'], 1, ['dad', 'dad', 'mom']);
+			addWeek(['Whats-new', 'Blast', 'Super-saiyan'], 2, ['dad', 'mom', 'mom']);
+			addSong('GOD-EATER', 3, 'pshaggy');
 
 		// LOAD MUSIC
 
@@ -106,9 +111,11 @@ class FreeplayState extends MusicBeatState
 		// FlxG.sound.music.fadeIn(2, 0, 0.8);
 		selector = new FlxText();
 
+		/*
 		selector.size = 40;
 		selector.text = ">";
-		// add(selector);
+		add(selector);
+		*/
 
 		var swag:Alphabet = new Alphabet(1, 0, "swag");
 
@@ -211,12 +218,10 @@ class FreeplayState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (curDifficulty < 0)
+		if (curDifficulty < 1)
 			curDifficulty = 2;
 		if (curDifficulty > 2)
-			curDifficulty = 0;
-
-		curDifficulty = 2;
+			curDifficulty = 1;
 
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
@@ -227,16 +232,14 @@ class FreeplayState extends MusicBeatState
 			case 0:
 				diffText.text = "EASY";
 			case 1:
-				diffText.text = 'NORMAL';
+				diffText.text = '< EASY >';
 			case 2:
-				diffText.text = "HARD";
+				diffText.text = "< CANON >";
 		}
-		diffText.text = "";
 	}
 
 	function changeSelection(change:Int = 0)
 	{
-		curDifficulty = 2;
 		#if !switch
 		// NGio.logEvent('Fresh');
 		#end

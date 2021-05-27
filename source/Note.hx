@@ -41,6 +41,8 @@ class Note extends FlxSprite
 	public static var EX1_NOTE:Int = 4;
 	public static var EX2_NOTE:Int = 5;
 
+	public static var tooMuch:Float = 30;
+
 	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false)
 	{
 		swagWidth = 160 * 0.7; //factor not the same as noteScale
@@ -52,6 +54,12 @@ class Note extends FlxSprite
 			noteScale = 0.6;
 			mania = 1;
 		}
+		else if (PlayState.SONG.mania == 2)
+		{
+			swagWidth = 90 * 0.7;
+			noteScale = 0.46;
+			mania = 2;
+		}
 		super();
 
 		if (prevNote == null)
@@ -61,6 +69,10 @@ class Note extends FlxSprite
 		isSustainNote = sustainNote;
 
 		x += 50;
+		if (PlayState.SONG.mania == 2)
+		{
+			x -= tooMuch;
+		}
 		// MAKE SURE ITS DEFINITELY OFF SCREEN?
 		y -= 2000;
 
@@ -110,7 +122,10 @@ class Note extends FlxSprite
 				animation.addByPrefix('redScroll', 'red0');
 				animation.addByPrefix('blueScroll', 'blue0');
 				animation.addByPrefix('purpleScroll', 'purple0');
+				animation.addByPrefix('whiteScroll', 'white0');
 				animation.addByPrefix('yellowScroll', 'yellow0');
+				animation.addByPrefix('violetScroll', 'violet0');
+				animation.addByPrefix('blackScroll', 'black0');
 				animation.addByPrefix('darkScroll', 'dark0');
 
 
@@ -118,14 +133,20 @@ class Note extends FlxSprite
 				animation.addByPrefix('greenholdend', 'green hold end');
 				animation.addByPrefix('redholdend', 'red hold end');
 				animation.addByPrefix('blueholdend', 'blue hold end');
+				animation.addByPrefix('whiteholdend', 'white hold end');
 				animation.addByPrefix('yellowholdend', 'yellow hold end');
+				animation.addByPrefix('violetholdend', 'violet hold end');
+				animation.addByPrefix('blackholdend', 'black hold end');
 				animation.addByPrefix('darkholdend', 'dark hold end');
 
 				animation.addByPrefix('purplehold', 'purple hold piece');
 				animation.addByPrefix('greenhold', 'green hold piece');
 				animation.addByPrefix('redhold', 'red hold piece');
 				animation.addByPrefix('bluehold', 'blue hold piece');
+				animation.addByPrefix('whitehold', 'white hold piece');
 				animation.addByPrefix('yellowhold', 'yellow hold piece');
+				animation.addByPrefix('violethold', 'violet hold piece');
+				animation.addByPrefix('blackhold', 'black hold piece');
 				animation.addByPrefix('darkhold', 'dark hold piece');
 
 				setGraphicSize(Std.int(width * noteScale));
@@ -140,6 +161,7 @@ class Note extends FlxSprite
 		}
 		var frameN:Array<String> = ['purple', 'blue', 'green', 'red'];
 		if (mania == 1) frameN = ['purple', 'green', 'red', 'yellow', 'blue', 'dark'];
+		else if (mania == 2) frameN = ['purple', 'blue', 'green', 'red', 'white', 'yellow', 'violet', 'black', 'dark'];
 
 		x += swagWidth * noteData;
 		animation.play(frameN[noteData] + 'Scroll');

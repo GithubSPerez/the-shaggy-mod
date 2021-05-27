@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cs_back_bg.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cs_back_bg0000" x="0" y="0" width="2475" height="1265" pivotX="1237.55" pivotY="632.9"/>
+	<SubTexture name="cs_bg0000" x="0" y="1265" width="2147" height="1317" pivotX="1073.2" pivotY="658.3"/>
+</TextureAtlas>

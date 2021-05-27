@@ -52,6 +52,37 @@ enum abstract Action(String) to String from String
 	var L2_R = "l2-release";
 	var D1_R = "d-release";
 	var R2_R = "r2-release";
+
+
+	var N0 = "n0";
+	var N1 = "n1";
+	var N2 = "n2";
+	var N3 = "n3";
+	var N4 = "n4";
+	var N5 = "n5";
+	var N6 = "n6";
+	var N7 = "n7";
+	var N8 = "n8";
+
+	var N0_P = "n0-press";
+	var N1_P = "n1-press";
+	var N2_P = "n2-press";
+	var N3_P = "n3-press";
+	var N4_P = "n4-press";
+	var N5_P = "n5-press";
+	var N6_P = "n6-press";
+	var N7_P = "n7-press";
+	var N8_P = "n8-press";
+
+	var N0_R = "n0-release";
+	var N1_R = "n1-release";
+	var N2_R = "n2-release";
+	var N3_R = "n3-release";
+	var N4_R = "n4-release";
+	var N5_R = "n5-release";
+	var N6_R = "n6-release";
+	var N7_R = "n7-release";
+	var N8_R = "n8-release";
 }
 #else
 @:enum
@@ -95,6 +126,37 @@ abstract Action(String) to String from String
 	var L2_R = "l2-release";
 	var D1_R = "d-release";
 	var R2_R = "r2-release";
+
+
+	var N0 = "n0";
+	var N1 = "n1";
+	var N2 = "n2";
+	var N3 = "n3";
+	var N4 = "n4";
+	var N5 = "n5";
+	var N6 = "n6";
+	var N7 = "n7";
+	var N8 = "n8";
+
+	var N0_P = "n0-press";
+	var N1_P = "n1-press";
+	var N2_P = "n2-press";
+	var N3_P = "n3-press";
+	var N4_P = "n4-press";
+	var N5_P = "n5-press";
+	var N6_P = "n6-press";
+	var N7_P = "n7-press";
+	var N8_P = "n8-press";
+
+	var N0_R = "n0-release";
+	var N1_R = "n1-release";
+	var N2_R = "n2-release";
+	var N3_R = "n3-release";
+	var N4_R = "n4-release";
+	var N5_R = "n5-release";
+	var N6_R = "n6-release";
+	var N7_R = "n7-release";
+	var N8_R = "n8-release";
 }
 #end
 
@@ -126,6 +188,15 @@ enum Control
 	L2;
 	D1;
 	R2;
+	N0;
+	N1;
+	N2;
+	N3;
+	N4;
+	N5;
+	N6;
+	N7;
+	N8;
 }
 
 enum KeyboardScheme
@@ -186,6 +257,37 @@ class Controls extends FlxActionSet
 	var _r2 = new FlxActionDigital(Action.R2);
 	var _r2P = new FlxActionDigital(Action.R2_P);
 	var _r2R = new FlxActionDigital(Action.R2_R);
+
+
+	var _n0 = new FlxActionDigital(Action.N0);
+	var _n1 = new FlxActionDigital(Action.N1);
+	var _n2 = new FlxActionDigital(Action.N2);
+	var _n3 = new FlxActionDigital(Action.N3);
+	var _n4 = new FlxActionDigital(Action.N4);
+	var _n5 = new FlxActionDigital(Action.N5);
+	var _n6 = new FlxActionDigital(Action.N6);
+	var _n7 = new FlxActionDigital(Action.N7);
+	var _n8 = new FlxActionDigital(Action.N8);
+
+	var _n0P = new FlxActionDigital(Action.N0_P);
+	var _n1P = new FlxActionDigital(Action.N1_P);
+	var _n2P = new FlxActionDigital(Action.N2_P);
+	var _n3P = new FlxActionDigital(Action.N3_P);
+	var _n4P = new FlxActionDigital(Action.N4_P);
+	var _n5P = new FlxActionDigital(Action.N5_P);
+	var _n6P = new FlxActionDigital(Action.N6_P);
+	var _n7P = new FlxActionDigital(Action.N7_P);
+	var _n8P = new FlxActionDigital(Action.N8_P);
+
+	var _n0R = new FlxActionDigital(Action.N0_R);
+	var _n1R = new FlxActionDigital(Action.N1_R);
+	var _n2R = new FlxActionDigital(Action.N2_R);
+	var _n3R = new FlxActionDigital(Action.N3_R);
+	var _n4R = new FlxActionDigital(Action.N4_R);
+	var _n5R = new FlxActionDigital(Action.N5_R);
+	var _n6R = new FlxActionDigital(Action.N6_R);
+	var _n7R = new FlxActionDigital(Action.N7_R);
+	var _n8R = new FlxActionDigital(Action.N8_R);
 
 
 	#if (haxe >= "4.0.0")
@@ -376,6 +478,67 @@ class Controls extends FlxActionSet
 		return _r2R.check();
 
 
+	public var N0(get, never):Bool;
+	public var N1(get, never):Bool;
+	public var N2(get, never):Bool;
+	public var N3(get, never):Bool;
+	public var N4(get, never):Bool;
+	public var N5(get, never):Bool;
+	public var N6(get, never):Bool;
+	public var N7(get, never):Bool;
+	public var N8(get, never):Bool;
+
+	public var N0_P(get, never):Bool;
+	public var N1_P(get, never):Bool;
+	public var N2_P(get, never):Bool;
+	public var N3_P(get, never):Bool;
+	public var N4_P(get, never):Bool;
+	public var N5_P(get, never):Bool;
+	public var N6_P(get, never):Bool;
+	public var N7_P(get, never):Bool;
+	public var N8_P(get, never):Bool;
+
+	public var N0_R(get, never):Bool;
+	public var N1_R(get, never):Bool;
+	public var N2_R(get, never):Bool;
+	public var N3_R(get, never):Bool;
+	public var N4_R(get, never):Bool;
+	public var N5_R(get, never):Bool;
+	public var N6_R(get, never):Bool;
+	public var N7_R(get, never):Bool;
+	public var N8_R(get, never):Bool;
+
+	inline function get_N0() return _n0.check();
+	inline function get_N1() return _n1.check();
+	inline function get_N2() return _n2.check();
+	inline function get_N3() return _n3.check();
+	inline function get_N4() return _n4.check();
+	inline function get_N5() return _n5.check();
+	inline function get_N6() return _n6.check();
+	inline function get_N7() return _n7.check();
+	inline function get_N8() return _n8.check();
+
+	inline function get_N0_P() return _n0P.check();
+	inline function get_N1_P() return _n1P.check();
+	inline function get_N2_P() return _n2P.check();
+	inline function get_N3_P() return _n3P.check();
+	inline function get_N4_P() return _n4P.check();
+	inline function get_N5_P() return _n5P.check();
+	inline function get_N6_P() return _n6P.check();
+	inline function get_N7_P() return _n7P.check();
+	inline function get_N8_P() return _n8P.check();
+
+	inline function get_N0_R() return _n0R.check();
+	inline function get_N1_R() return _n1R.check();
+	inline function get_N2_R() return _n2R.check();
+	inline function get_N3_R() return _n3R.check();
+	inline function get_N4_R() return _n4R.check();
+	inline function get_N5_R() return _n5R.check();
+	inline function get_N6_R() return _n6R.check();
+	inline function get_N7_R() return _n7R.check();
+	inline function get_N8_R() return _n8R.check();
+
+
 	#if (haxe >= "4.0.0")
 	public function new(name, scheme = None)
 	{
@@ -419,6 +582,37 @@ class Controls extends FlxActionSet
 		add(_r2);
 		add(_r2P);
 		add(_r2R);
+
+
+		add(_n0);
+		add(_n1);
+		add(_n2);
+		add(_n3);
+		add(_n4);
+		add(_n5);
+		add(_n6);
+		add(_n7);
+		add(_n8);
+
+		add(_n0P);
+		add(_n1P);
+		add(_n2P);
+		add(_n3P);
+		add(_n4P);
+		add(_n5P);
+		add(_n6P);
+		add(_n7P);
+		add(_n8P);
+
+		add(_n0R);
+		add(_n1R);
+		add(_n2R);
+		add(_n3R);
+		add(_n4R);
+		add(_n5R);
+		add(_n6R);
+		add(_n7R);
+		add(_n8R);
 
 		for (action in digitalActions)
 			byName[action.name] = action;
@@ -467,6 +661,37 @@ class Controls extends FlxActionSet
 		add(_r2);
 		add(_r2P);
 		add(_r2R);
+
+
+		add(_n0);
+		add(_n1);
+		add(_n2);
+		add(_n3);
+		add(_n4);
+		add(_n5);
+		add(_n6);
+		add(_n7);
+		add(_n8);
+
+		add(_n0P);
+		add(_n1P);
+		add(_n2P);
+		add(_n3P);
+		add(_n4P);
+		add(_n5P);
+		add(_n6P);
+		add(_n7P);
+		add(_n8P);
+
+		add(_n0R);
+		add(_n1R);
+		add(_n2R);
+		add(_n3R);
+		add(_n4R);
+		add(_n5R);
+		add(_n6R);
+		add(_n7R);
+		add(_n8R);
 
 		for (action in digitalActions)
 			byName[action.name] = action;
@@ -528,6 +753,16 @@ class Controls extends FlxActionSet
 			case L2: _l2;
 			case U1: _u;
 			case R2: _r2;
+
+			case N0: _n0;
+			case N1: _n1;
+			case N2: _n2;
+			case N3: _n3;
+			case N4: _n4;
+			case N5: _n5;
+			case N6: _n6;
+			case N7: _n7;
+			case N8: _n8;
 		}
 	}
 
@@ -598,6 +833,43 @@ class Controls extends FlxActionSet
 				func(_r2, PRESSED);
 				func(_r2P, JUST_PRESSED);
 				func(_r2R, JUST_RELEASED);
+
+			case N0:
+				func(_n0, PRESSED);
+				func(_n0P, JUST_PRESSED);
+				func(_n0R, JUST_RELEASED);
+			case N1:
+				func(_n1, PRESSED);
+				func(_n1P, JUST_PRESSED);
+				func(_n1R, JUST_RELEASED);
+			case N2:
+				func(_n2, PRESSED);
+				func(_n2P, JUST_PRESSED);
+				func(_n2R, JUST_RELEASED);
+			case N3:
+				func(_n3, PRESSED);
+				func(_n3P, JUST_PRESSED);
+				func(_n3R, JUST_RELEASED);
+			case N4:
+				func(_n4, PRESSED);
+				func(_n4P, JUST_PRESSED);
+				func(_n4R, JUST_RELEASED);
+			case N5:
+				func(_n5, PRESSED);
+				func(_n5P, JUST_PRESSED);
+				func(_n5R, JUST_RELEASED);
+			case N6:
+				func(_n6, PRESSED);
+				func(_n6P, JUST_PRESSED);
+				func(_n6R, JUST_RELEASED);
+			case N7:
+				func(_n7, PRESSED);
+				func(_n7P, JUST_PRESSED);
+				func(_n7R, JUST_RELEASED);
+			case N8:
+				func(_n8, PRESSED);
+				func(_n8P, JUST_PRESSED);
+				func(_n8R, JUST_RELEASED);
 		}
 	}
 
@@ -736,8 +1008,19 @@ class Controls extends FlxActionSet
 			removeKeyboard();
 
 		keyboardScheme = scheme;
+		Main.woops = false;
 		
 		#if (haxe >= "4.0.0")
+		inline bindKeys(Control.N0, [A]);
+		inline bindKeys(Control.N1, [S]);
+		inline bindKeys(Control.N2, [D]);
+		inline bindKeys(Control.N3, [F]);
+		inline bindKeys(Control.N4, [FlxKey.SPACE]);
+		inline bindKeys(Control.N5, [H]);
+		inline bindKeys(Control.N6, [J]);
+		inline bindKeys(Control.N7, [K]);
+		inline bindKeys(Control.N8, [L]);
+		
 		switch (scheme)
 		{
 			case Solo:
@@ -783,6 +1066,7 @@ class Controls extends FlxActionSet
 			case None: // nothing
 			case Custom: // nothing
 			case Woops:
+				Main.woops = true;
 				inline bindKeys(Control.UP, [FlxKey.NUMPADTWO, FlxKey.ONE, FlxKey.UP]);
 				inline bindKeys(Control.DOWN, [X, FlxKey.DOWN]);
 				inline bindKeys(Control.LEFT, [Z, FlxKey.LEFT]);
@@ -798,8 +1082,22 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.L2, [FlxKey.NUMPADONE, FlxKey.ONE]);
 				inline bindKeys(Control.D1, [FlxKey.NUMPADTWO, FlxKey.TWO]);
 				inline bindKeys(Control.R2, [FlxKey.NUMPADTHREE, FlxKey.THREE]);
+
+				inline bindKeys(Control.N5, [FlxKey.NUMPADONE, FlxKey.ONE]);
+				inline bindKeys(Control.N6, [FlxKey.NUMPADTWO, FlxKey.TWO]);
+				inline bindKeys(Control.N7, [FlxKey.NUMPADTHREE, FlxKey.THREE]);
+				inline bindKeys(Control.N8, [FlxKey.ENTER]);
 		}
 		#else
+		bindKeys(Control.N0, [A]);
+		bindKeys(Control.N1, [S]);
+		bindKeys(Control.N2, [D]);
+		bindKeys(Control.N3, [F]);
+		bindKeys(Control.N4, [FlxKey.SPACE]);
+		bindKeys(Control.N5, [H]);
+		bindKeys(Control.N6, [J]);
+		bindKeys(Control.N7, [K]);
+		bindKeys(Control.N8, [L]);
 		switch (scheme)
 		{
 			case Solo:
@@ -846,6 +1144,7 @@ class Controls extends FlxActionSet
 			case None: // nothing
 			case Custom: // nothing
 			case Woops:
+				Main.woops = true;
 				bindKeys(Control.UP, [FlxKey.NUMPADTWO, FlxKey.ONE, FlxKey.UP]);
 				bindKeys(Control.DOWN, [X, FlxKey.DOWN]);
 				bindKeys(Control.LEFT, [Z, FlxKey.LEFT]);
@@ -861,6 +1160,11 @@ class Controls extends FlxActionSet
 				bindKeys(Control.L2, [FlxKey.NUMPADONE, FlxKey.ONE]);
 				bindKeys(Control.D1, [FlxKey.NUMPADTWO, FlxKey.TWO]);
 				bindKeys(Control.R2, [FlxKey.NUMPADTHREE, FlxKey.THREE]);
+
+				bindKeys(Control.N5, [FlxKey.NUMPADONE, FlxKey.ONE]);
+				bindKeys(Control.N6, [FlxKey.NUMPADTWO, FlxKey.TWO]);
+				bindKeys(Control.N7, [FlxKey.NUMPADTHREE, FlxKey.THREE]);
+				bindKeys(Control.N8, [FlxKey.ENTER]);
 		}
 		#end
 	}

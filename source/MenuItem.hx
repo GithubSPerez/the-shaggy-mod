@@ -35,6 +35,7 @@ class MenuItem extends FlxSpriteGroup
 
 	override function update(elapsed:Float)
 	{
+		antialiasing = false;
 		super.update(elapsed);
 		y = FlxMath.lerp(y, (targetY * 120) + 480, 0.17);
 

@@ -110,9 +110,14 @@ class MainMenuState extends MusicBeatState
 		}
 
 		if (FlxG.save.data.mash_punish == null)
-		{
-			
+		{	
 			FlxG.save.data.mash_punish = true;
+			FlxG.save.flush();
+		}
+
+		if (FlxG.save.data.progress == null)
+		{
+			FlxG.save.data.progress = 0;
 			FlxG.save.flush();
 		}
 
@@ -198,7 +203,6 @@ class MainMenuState extends MusicBeatState
 										trace("Story Menu Selected");
 									case 'freeplay':
 										FlxG.switchState(new FreeplayState());
-
 										trace("Freeplay Menu Selected");
 
 									case 'options':
@@ -217,6 +221,15 @@ class MainMenuState extends MusicBeatState
 		{
 			spr.screenCenter(X);
 		});
+
+		//debug resseting progress
+		if (FlxG.keys.justPressed.NINE)
+		{
+			FlxG.sound.play(Paths.sound('burst'));
+			FlxG.save.data.progress = 0;
+			FlxG.save.flush();
+			StoryMenuState.weekUnlocked = [true, true, false, false];
+		}
 	}
 
 	function changeItem(huh:Int = 0)

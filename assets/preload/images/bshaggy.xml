@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bshaggy.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bsh_angry0000" x="0" y="0" width="1280" height="929" pivotX="640" pivotY="464.5"/>
+	<SubTexture name="bsh_eyes0000" x="1280" y="0" width="146" height="97" pivotX="76.2" pivotY="52.7" frameX="-1" frameY="-5" frameWidth="150" frameHeight="107"/>
+	<SubTexture name="bsh_eyes0001" x="1426" y="0" width="147" height="101" frameX="-1" frameY="-5" frameWidth="150" frameHeight="107"/>
+	<SubTexture name="bsh_eyes0002" x="1573" y="0" width="147" height="102" frameX="0" frameY="-2" frameWidth="150" frameHeight="107"/>
+	<SubTexture name="bsh_eyes0003" x="1720" y="0" width="149" height="105" frameX="-1" frameY="0" frameWidth="150" frameHeight="107"/>
+	<SubTexture name="bsh_eyes0004" x="1869" y="0" width="147" height="99" frameX="-1" frameY="-8" frameWidth="150" frameHeight="107"/>
+	<SubTexture name="bsh_head2_still0000" x="2016" y="0" width="219" height="265" pivotX="109.65" pivotY="132.35"/>
+	<SubTexture name="bshaggy_body_still0000" x="2235" y="0" width="693" height="1023" pivotX="346.8" pivotY="511.2"/>
+	<SubTexture name="bshaggy_head_still0000" x="2928" y="0" width="225" height="171" pivotX="112.25" pivotY="0"/>
+	<SubTexture name="bshaggy_head_transform0000" x="3153" y="0" width="225" height="171" pivotX="127.4" pivotY="184.1" frameX="-15" frameY="-99" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0001" x="3153" y="0" width="225" height="171" frameX="-15" frameY="-99" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0002" x="3378" y="0" width="238" height="191" frameX="-9" frameY="-89" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0003" x="3378" y="0" width="238" height="191" frameX="-9" frameY="-89" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0004" x="3616" y="0" width="233" height="192" frameX="-11" frameY="-100" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0005" x="3616" y="0" width="233" height="192" frameX="-11" frameY="-100" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0006" x="0" y="1023" width="251" height="209" frameX="-8" frameY="-77" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0007" x="0" y="1023" width="251" height="209" frameX="-8" frameY="-77" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0008" x="251" y="1023" width="250" height="193" frameX="-7" frameY="-88" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0009" x="251" y="1023" width="250" height="193" frameX="-7" frameY="-88" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0010" x="501" y="1023" width="241" height="291" frameX="-8" frameY="0" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0011" x="742" y="1023" width="261" height="274" frameX="0" frameY="-20" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0012" x="1003" y="1023" width="233" height="273" frameX="-13" frameY="-15" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0013" x="1003" y="1023" width="233" height="273" frameX="-13" frameY="-15" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0014" x="1236" y="1023" width="220" height="264" frameX="-16" frameY="-21" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0015" x="1236" y="1023" width="220" height="264" frameX="-16" frameY="-21" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0016" x="1236" y="1023" width="220" height="264" frameX="-16" frameY="-21" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0017" x="1236" y="1023" width="220" height="264" frameX="-16" frameY="-21" frameWidth="261" frameHeight="294"/>
+	<SubTexture name="bshaggy_head_transform0018" x="1236" y="1023" width="220" height="264" frameX="-16" frameY="-21" frameWidth="261" frameHeight="294"/>
+</TextureAtlas>
