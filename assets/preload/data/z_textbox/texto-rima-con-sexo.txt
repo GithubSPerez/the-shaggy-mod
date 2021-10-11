@@ -1,0 +1,4 @@
+sh:normal:1:cuanto es 1 mas 10
+bf:normal:-1:11
+sh:smug:1:chupalo entonce
+bf:scared:-1:CONCHETUMAREEEEEEEEEEEEEEEEEEEEEEEEEEEEE

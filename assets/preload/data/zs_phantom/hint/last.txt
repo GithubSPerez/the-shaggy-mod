@@ -1,0 +1,6 @@
+menu
+h_happy:Recolectaste todas mis piezas!!#Mi cara está completa!!!
+n_normal:Si pudieras llevarme donde WB Shaggy#sería genial creo
+n_trauma:Quiero hacer una cosa:songScary
+h_normal:Pero es secreto así que no preguntes!!:songGood
+n_happy:Solo llevame, no te arrepentirás

@@ -1,0 +1,7 @@
+prompt:Understood:I can't:hint/followups/frame_understood:hint/followups/frame_cant
+n_normal:My face frame got yeeted into the ground
+n_con:Somehow
+n_normal:It's burried under the mansion (what the fuck)
+n_happy:You could go back to the song where you angered#shaggy so he breaks the#whole thing again so my frame gets unburried
+n_normal:So
+h_normal:You can grab it!!

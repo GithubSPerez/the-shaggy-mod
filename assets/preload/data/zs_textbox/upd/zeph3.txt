@@ -1,0 +1,3 @@
+zsh:normal:1:Eso fue divertido!!
+zsh:normal:1:Nos vemos en 10 años bee.
+zsh:laugh:1:Volveré lleno de sorpresas, #mas te vale estar listo!!!

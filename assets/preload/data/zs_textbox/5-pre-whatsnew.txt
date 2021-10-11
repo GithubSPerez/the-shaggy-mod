@@ -1,0 +1,8 @@
+sh:ser:1:No has visto a Scooby por ahí?
+bf:normal:-1:bap boop
+sh:con:1:Oh diós! Yo tampoco lo he visto!#El pobre debe estar asustado...
+bf:normal:-1:boop bap
+sh:con:1:Qué? Cantar denuevo?
+sh:ser:1:Sabes, quizá si cantamos la#canción favorita de Scooby podamos#llamar su atención
+sh:con:1:Espero que nos pueda escuchar...
+sh:normal:1:Okey, aquí vamos.

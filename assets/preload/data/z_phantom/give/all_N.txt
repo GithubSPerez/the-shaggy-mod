@@ -1,0 +1,8 @@
+exit
+n_normal:...
+n_con:You... Did it...?
+n_normal:You collected all of my pieces.#Without needing any of my help.
+n_sad:We didn't get to talk that much, huh?
+n_con:Well, there's one more thing that's left now
+n_normal:Take me to where WB Shaggy is
+n_normal:I have to do something.

@@ -1,0 +1,13 @@
+menu
+s_angry:Oh I hate that guy
+s_con:Not the cool ones, the tall one
+n_normal:But they all have something in common
+n_normal:Their incredible power (zzzzz)
+n_happy:The Shaggys can do a lot of things, they're pretty#strong I would say.
+n_normal:I've been following their journey from the very start,#before I was turned into a mask!!
+n_happy:They seemed intersting...
+n_normal:(Not the tall one)
+n_sad:Their life has been like a tragedy!! It's really sad...
+n_normal:(Not the tall one)
+n_con:The red Shaggy has been really strong mentally,#even through his painful life
+n_normal:The green one tho...

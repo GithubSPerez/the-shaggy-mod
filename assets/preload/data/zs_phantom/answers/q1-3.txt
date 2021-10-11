@@ -1,0 +1,9 @@
+menu
+n_happy:A ese es el nombre elegante que le ponemos al#multiverso
+n_normal:Se ve como un pasillo gigante con un montón#de puertas
+n_normal:Las puertas llevan a distintos universos, así#es como los Shaggys llegarón aquí en primer lugar
+n_con:A esos dos les gusta saltar de lugar en lugar...
+n_normal:Como sea, espero que no estés muy sorprendido
+n_happy:También hay muchas versiones de ti!!
+n_con:Y... un montón de versiones de un esqueleto#por alguna razón...
+h_happy:Quién sabe, quizá algún día llegues a conocer#a alguna de tus contrapartes!!

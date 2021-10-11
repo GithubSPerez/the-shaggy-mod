@@ -1,0 +1,15 @@
+rsh:normal:1:This is a goodbye, for now.
+gf:normal:-1:Wait, are there any more of you?
+rsh:ser:1:Um... I'm like, pretty sure.
+rsh:ser:1:I only know one more tho.
+bf:burn:-1:bap bop beep!!
+rsh:ser:1:Oh no, you wouldn't wanna...
+rsh:smug:1:You know what? who am I kidding, of course#you would.
+rsh:normal:1:I'll tell him to come visit you when I go.
+rsh:smug:1:Be careful tho, that guy's a bit excentric
+rsh:smug:1:I have no idea how he does it but he doesn't#need to pass through the hall to travel#through dimensions and stuff
+rsh:normal:1:He might surprise you
+gf:happy:-1:Oh?
+bf:burn:-1:bap!
+rsh:smug:1:Heh, alright alright.
+rsh:normal:1:Like, see ya dudes!

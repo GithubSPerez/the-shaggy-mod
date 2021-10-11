@@ -1,0 +1,7 @@
+prompt:Entendido:No puedo:hint/followups/frame_understood:hint/followups/frame_cant
+n_normal:Mi marco fue lanzado hacia al suelo
+n_con:De alguna forma
+n_normal:Está enterrado debajo de la mansión (que mierda)
+n_happy:Podrías ir devuelta a la canción en donde#hiciste enojar a Shaggy para que rompa#la mansion completa denuevo para#que mi marco se desentierre
+n_normal:Para que
+h_normal:Lo puedas agarrar!!

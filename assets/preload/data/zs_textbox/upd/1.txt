@@ -1,0 +1,13 @@
+rsh:ser:1:...
+rsh:con:1:Porqué me seguiste?
+bf:normal:-1:beepee bo
+rsh:ang:1:Oh, porqué será
+rsh:ang:1:Como te sentirías TU si alguien mas#controlara tu existencia?
+rsh:sad:1:...
+rsh:ser:1:Lo siento viejo, tampoco es tan serio.
+bf:normal:-1:...
+rsh:con:1:Dejame adivinar, quieres cantar#otra vez?
+bf:normal:-1:beep bap boop
+rsh:con:1:Muy bien, pero, voy a cantar mas#calmado.
+rsh:ser:1:No quiero hacerlo tan dificil
+rsh:kill:1:Despues de todo, podría dejar de existir.

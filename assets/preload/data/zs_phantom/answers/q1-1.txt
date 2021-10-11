@@ -1,0 +1,8 @@
+menu
+n_normal:Mi nombre es Zephyrus
+n_happy:Pero personalmente decidí llamarme#"Phantom zephyrus" por el momento
+n_con:Porque, bueno, ahora mismo no existo
+h_normal:Suena GENIAL si me lo preguntas a mi!!
+h_normal:...
+n_normal:O me puedes llamar zeph, como me llaman#mis amigos (no tengo amigos)
+n_happy:Como sea... ee, de que estaba hablando?

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Shaggy.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="M Shaggy Idle0000" x="10" y="1641" width="172" height="369" frameX="0" frameY="-28" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0001" x="10" y="1641" width="172" height="369" frameX="0" frameY="-28" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0002" x="203" y="1246" width="169" height="370" frameX="-3" frameY="-27" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0003" x="10" y="1246" width="173" height="375" frameX="-4" frameY="-22" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0004" x="10" y="1246" width="173" height="375" frameX="-4" frameY="-22" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0005" x="10" y="844" width="177" height="382" frameX="-7" frameY="-15" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0006" x="10" y="844" width="177" height="382" frameX="-7" frameY="-15" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0007" x="10" y="427" width="177" height="397" frameX="-8" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0008" x="10" y="427" width="177" height="397" frameX="-8" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0009" x="10" y="427" width="177" height="397" frameX="-8" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0010" x="10" y="427" width="177" height="397" frameX="-8" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0011" x="10" y="10" width="178" height="397" frameX="-8" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0012" x="10" y="10" width="178" height="397" frameX="-8" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0013" x="10" y="10" width="178" height="397" frameX="-8" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0014" x="10" y="10" width="178" height="397" frameX="-8" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0015" x="202" y="1641" width="171" height="369" frameX="-1" frameY="-28" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0016" x="202" y="1641" width="171" height="369" frameX="-1" frameY="-28" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0017" x="207" y="427" width="168" height="370" frameX="-2" frameY="-27" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0018" x="208" y="10" width="166" height="373" frameX="-3" frameY="-24" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0019" x="208" y="10" width="166" height="373" frameX="-3" frameY="-24" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0020" x="207" y="817" width="159" height="381" frameX="-6" frameY="-16" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0021" x="207" y="817" width="159" height="381" frameX="-6" frameY="-16" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0022" x="394" y="10" width="154" height="396" frameX="-9" frameY="-1" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0023" x="394" y="10" width="154" height="396" frameX="-9" frameY="-1" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0024" x="394" y="10" width="154" height="396" frameX="-9" frameY="-1" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0025" x="394" y="10" width="154" height="396" frameX="-9" frameY="-1" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0026" x="386" y="817" width="150" height="397" frameX="-11" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0027" x="386" y="817" width="150" height="397" frameX="-11" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0028" x="386" y="817" width="150" height="397" frameX="-11" frameY="0" frameWidth="186" frameHeight="397"/>
+	<SubTexture name="M Shaggy Idle0029" x="386" y="817" width="150" height="397" frameX="-11" frameY="0" frameWidth="186" frameHeight="397"/>
+</TextureAtlas>

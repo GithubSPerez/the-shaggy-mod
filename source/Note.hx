@@ -5,9 +5,7 @@ import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
-#if polymod
-import polymod.format.ParseRules.TargetSignatureElement;
-#end
+import flash.display.BitmapData;
 
 using StringTools;
 
@@ -20,170 +18,127 @@ class Note extends FlxSprite
 	public var canBeHit:Bool = false;
 	public var tooLate:Bool = false;
 	public var wasGoodHit:Bool = false;
+	public var ignoreNote:Bool = false;
 	public var prevNote:Note;
 
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
+	public var noteType(default, set):Int = 0;
 
-	public var noteScore:Float = 1;
-	public var mania:Int = 0;
+	public var eventName:String = '';
+	public var eventVal1:String = '';
+	public var eventVal2:String = '';
 
-	public static var noteyOff1:Array<Float> = [4, 0, 0, 0, 0, 0];
-	public static var noteyOff2:Array<Float> = [0, 0, 0, 0, 0, 0];
-	public static var noteyOff3:Array<Float> = [0, 0, 0, 0, 0, 0];
+	public var colorSwap:ColorSwap;
+	public var inEditor:Bool = false;
 
-	public static var swagWidth:Float;
-	public static var noteScale:Float;
+	public static var scales:Array<Float> = [0.7, 0.6, 0.55, 0.46];
+	public static var swidths:Array<Float> = [160, 120, 110, 90];
+	public static var posRest:Array<Int> = [0, 35, 50, 70];
+
+	public static var swagWidth:Float = 0.7;
 	public static var PURP_NOTE:Int = 0;
 	public static var GREEN_NOTE:Int = 2;
 	public static var BLUE_NOTE:Int = 1;
 	public static var RED_NOTE:Int = 3;
-	public static var EX1_NOTE:Int = 4;
-	public static var EX2_NOTE:Int = 5;
 
-	public static var tooMuch:Float = 30;
+	private function set_noteType(value:Int):Int {
+		if(noteData > -1 && noteType != value) {
+			switch(value) {
+				case 3: //Hurt note
+					reloadNote('HURT');
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false)
+				default:
+					colorSwap.hue = ClientPrefs.arrowHSV[noteData % 4][0] / 360;
+					colorSwap.saturation = ClientPrefs.arrowHSV[noteData % 4][1] / 100;
+					colorSwap.brightness = ClientPrefs.arrowHSV[noteData % 4][2] / 100;
+			}
+			noteType = value;
+		}
+		return value;
+	}
+
+	var isPixel:Bool = false;
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inEditor:Bool = false)
 	{
-		swagWidth = 160 * 0.7; //factor not the same as noteScale
-		noteScale = 0.7;
-		mania = 0;
-		if (PlayState.SONG.mania == 1)
-		{
-			swagWidth = 120 * 0.7;
-			noteScale = 0.6;
-			mania = 1;
-		}
-		else if (PlayState.SONG.mania == 2)
-		{
-			swagWidth = 90 * 0.7;
-			noteScale = 0.46;
-			mania = 2;
-		}
 		super();
+		
+		var mania = PlayState.SONG.mania;
 
 		if (prevNote == null)
 			prevNote = this;
 
 		this.prevNote = prevNote;
 		isSustainNote = sustainNote;
+		this.inEditor = inEditor;
 
-		x += 50;
-		if (PlayState.SONG.mania == 2)
-		{
-			x -= tooMuch;
-		}
+		x += (ClientPrefs.middleScroll ? PlayState.STRUM_X_MIDDLESCROLL : PlayState.STRUM_X) + 50 - posRest[mania];
 		// MAKE SURE ITS DEFINITELY OFF SCREEN?
 		y -= 2000;
+		this.strumTime = strumTime;
+		if(!inEditor) this.strumTime += ClientPrefs.noteOffset;
 
 		this.noteData = noteData;
-
-		var addto = FlxG.save.data.offset;
-		if (Main.editor) //xd
-		{
-			addto = 0;
-		}
-		this.strumTime = strumTime + addto;
 
 		var daStage:String = PlayState.curStage;
 
 		switch (daStage)
 		{
 			case 'school' | 'schoolEvil':
-				loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels'), true, 17, 17);
-
-				animation.add('greenScroll', [6]);
-				animation.add('redScroll', [7]);
-				animation.add('blueScroll', [5]);
-				animation.add('purpleScroll', [4]);
-
 				if (isSustainNote)
 				{
-					loadGraphic(Paths.image('weeb/pixelUI/arrowEnds'), true, 7, 6);
-
-					animation.add('purpleholdend', [4]);
-					animation.add('greenholdend', [6]);
-					animation.add('redholdend', [7]);
-					animation.add('blueholdend', [5]);
-
-					animation.add('purplehold', [0]);
-					animation.add('greenhold', [2]);
-					animation.add('redhold', [3]);
-					animation.add('bluehold', [1]);
+					loadGraphic(Paths.image('weeb/pixelUI/NOTE_assetsENDS'));
+					width = width / 4;
+					height = height / 2;
+					loadGraphic(Paths.image('weeb/pixelUI/NOTE_assetsENDS'), true, Math.floor(width), Math.floor(height));
+				} else {
+					loadGraphic(Paths.image('weeb/pixelUI/NOTE_assets'));
+					width = width / 4;
+					height = height / 5;
+					loadGraphic(Paths.image('weeb/pixelUI/NOTE_assets'), true, Math.floor(width), Math.floor(height));
 				}
+				loadPixelNoteAnims();
 
 				setGraphicSize(Std.int(width * PlayState.daPixelZoom));
 				updateHitbox();
+				isPixel = true;
 
 			default:
 				frames = Paths.getSparrowAtlas('NOTE_assets');
-
-				animation.addByPrefix('greenScroll', 'green0');
-				animation.addByPrefix('redScroll', 'red0');
-				animation.addByPrefix('blueScroll', 'blue0');
-				animation.addByPrefix('purpleScroll', 'purple0');
-				animation.addByPrefix('whiteScroll', 'white0');
-				animation.addByPrefix('yellowScroll', 'yellow0');
-				animation.addByPrefix('violetScroll', 'violet0');
-				animation.addByPrefix('blackScroll', 'black0');
-				animation.addByPrefix('darkScroll', 'dark0');
-
-
-				animation.addByPrefix('purpleholdend', 'pruple end hold');
-				animation.addByPrefix('greenholdend', 'green hold end');
-				animation.addByPrefix('redholdend', 'red hold end');
-				animation.addByPrefix('blueholdend', 'blue hold end');
-				animation.addByPrefix('whiteholdend', 'white hold end');
-				animation.addByPrefix('yellowholdend', 'yellow hold end');
-				animation.addByPrefix('violetholdend', 'violet hold end');
-				animation.addByPrefix('blackholdend', 'black hold end');
-				animation.addByPrefix('darkholdend', 'dark hold end');
-
-				animation.addByPrefix('purplehold', 'purple hold piece');
-				animation.addByPrefix('greenhold', 'green hold piece');
-				animation.addByPrefix('redhold', 'red hold piece');
-				animation.addByPrefix('bluehold', 'blue hold piece');
-				animation.addByPrefix('whitehold', 'white hold piece');
-				animation.addByPrefix('yellowhold', 'yellow hold piece');
-				animation.addByPrefix('violethold', 'violet hold piece');
-				animation.addByPrefix('blackhold', 'black hold piece');
-				animation.addByPrefix('darkhold', 'dark hold piece');
-
-				setGraphicSize(Std.int(width * noteScale));
-				updateHitbox();
-				antialiasing = true;
+				loadNoteAnims();
+				antialiasing = ClientPrefs.globalAntialiasing;
 		}
 
-		switch (noteData)
-		{
-			case 0:
-			//nada
-		}
-		var frameN:Array<String> = ['purple', 'blue', 'green', 'red'];
-		if (mania == 1) frameN = ['purple', 'green', 'red', 'yellow', 'blue', 'dark'];
-		else if (mania == 2) frameN = ['purple', 'blue', 'green', 'red', 'white', 'yellow', 'violet', 'black', 'dark'];
+		if(noteData > -1) {
+			/*
+			colorSwap = new ColorSwap();
+			shader = colorSwap.shader;
+			
+			colorSwap.hue = ClientPrefs.arrowHSV[noteData % 4][0] / 360;
+			colorSwap.saturation = ClientPrefs.arrowHSV[noteData % 4][1] / 100;
+			colorSwap.brightness = ClientPrefs.arrowHSV[noteData % 4][2] / 100;
+			*/
 
-		x += swagWidth * noteData;
-		animation.play(frameN[noteData] + 'Scroll');
+			x += swidths[mania] * swagWidth * (noteData % Main.ammo[mania]);
+			if(!isSustainNote) { //Doing this 'if' check to fix the warnings on Senpai songs
+				
+				animation.play(Main.gfxLetter[Main.gfxIndex[mania][noteData]]);
+			}
+		}
+
 		// trace(prevNote);
 
 		if (isSustainNote && prevNote != null)
 		{
-			noteScore * 0.2;
 			alpha = 0.6;
-			if (FlxG.save.data.downscroll)
-			{
-				scale.y *= -1;
-			}
+			if(ClientPrefs.downScroll) flipY = true;
 
 			x += width / 2;
 
-			animation.play(frameN[noteData] + 'holdend');
-			switch (noteData)
-			{
-				case 0:
-				//nada
-			}
+			animation.play(Main.gfxLetter[Main.gfxIndex[mania][noteData]] + ' tail');
 
 			updateHitbox();
 
@@ -194,23 +149,97 @@ class Note extends FlxSprite
 
 			if (prevNote.isSustainNote)
 			{
-				switch (prevNote.noteData)
-				{
-					case 0:
-					//nada
-				}
-				prevNote.animation.play(frameN[prevNote.noteData] + 'hold');
-				prevNote.scale.y *= Conductor.stepCrochet / 100 * 1.5 * PlayState.SONG.speed * (0.7 / noteScale);
+				prevNote.animation.play(Main.gfxLetter[Main.gfxIndex[mania][noteData]] + ' hold');
+
+				prevNote.scale.y *= Conductor.stepCrochet / 100 * 1.5 * PlayState.SONG.speed;
 				prevNote.updateHitbox();
 				// prevNote.setGraphicSize();
 			}
+		}
+
+		if(!isPixel && noteData > -1) reloadNote();
+	}
+
+	function reloadNote(?prefix:String = '', ?suffix:String = '') {
+		var skin:String = PlayState.SONG.arrowSkin;
+		if(skin == null || skin.length < 1) {
+			skin = 'NOTE_assets';
+		}
+
+		var animName:String = null;
+		if(animation.curAnim != null) {
+			animName = animation.curAnim.name;
+		}
+
+		var blahblah:String = prefix + skin + suffix;
+		if(isPixel) {
+			if(isSustainNote) {
+				loadGraphic(Paths.image('weeb/pixelUI/' + blahblah + 'ENDS'));
+				width = width / 4;
+				height = height / 2;
+				loadGraphic(Paths.image('weeb/pixelUI/' + blahblah + 'ENDS'), true, Math.floor(width), Math.floor(height));
+			} else {
+				loadGraphic(Paths.image('weeb/pixelUI/' + blahblah));
+				width = width / 4;
+				height = height / 5;
+				loadGraphic(Paths.image('weeb/pixelUI/' + blahblah), true, Math.floor(width), Math.floor(height));
+			}
+			loadPixelNoteAnims();
+		} else {
+			frames = Paths.getSparrowAtlas(blahblah);
+			loadNoteAnims();
+		}
+		animation.play(animName, true);
+
+		if(inEditor) {
+			setGraphicSize(ChartingState.GRID_SIZE, ChartingState.GRID_SIZE);
+			updateHitbox();
+		}
+	}
+
+	function loadNoteAnims() {
+		for (i in 0...9)
+		{
+			animation.addByPrefix(Main.gfxLetter[i], Main.gfxLetter[i] + '0');
+
+			if (isSustainNote)
+			{
+				animation.addByPrefix(Main.gfxLetter[i] + ' hold', Main.gfxLetter[i] + ' hold');
+				animation.addByPrefix(Main.gfxLetter[i] + ' tail', Main.gfxLetter[i] + ' tail');
+			}
+		}
+
+		var ogW = width;
+		var ogH = height;
+		if (!isSustainNote)
+			setGraphicSize(Std.int(ogW * scales[PlayState.SONG.mania]));
+		else
+			setGraphicSize(Std.int(ogW * scales[PlayState.SONG.mania]), Std.int(ogH * scales[0]));
+
+		updateHitbox();
+	}
+
+	function loadPixelNoteAnims() {
+		if(isSustainNote) {
+			animation.add('purpleholdend', [PURP_NOTE + 4]);
+			animation.add('greenholdend', [GREEN_NOTE + 4]);
+			animation.add('redholdend', [RED_NOTE + 4]);
+			animation.add('blueholdend', [BLUE_NOTE + 4]);
+
+			animation.add('purplehold', [PURP_NOTE]);
+			animation.add('greenhold', [GREEN_NOTE]);
+			animation.add('redhold', [RED_NOTE]);
+			animation.add('bluehold', [BLUE_NOTE]);
+		} else {
+			animation.add('greenScroll', [GREEN_NOTE + 4]);
+			animation.add('redScroll', [RED_NOTE + 4]);
+			animation.add('blueScroll', [BLUE_NOTE + 4]);
+			animation.add('purpleScroll', [PURP_NOTE + 4]);
 		}
 	}
 
 	override function update(elapsed:Float)
 	{
-		//getStrumTime();
-
 		super.update(elapsed);
 
 		if (mustPress)

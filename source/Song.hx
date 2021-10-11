@@ -11,13 +11,17 @@ typedef SwagSong =
 {
 	var song:String;
 	var notes:Array<SwagSection>;
-	var bpm:Int;
+	var bpm:Float;
+	var mania:Int;
 	var needsVoices:Bool;
 	var speed:Float;
-	var mania:Int;
 
 	var player1:String;
 	var player2:String;
+	var player3:String;
+
+	var arrowSkin:String;
+	var splashSkin:String;
 	var validScore:Bool;
 }
 
@@ -25,13 +29,16 @@ class Song
 {
 	public var song:String;
 	public var notes:Array<SwagSection>;
-	public var bpm:Int;
+	public var bpm:Float;
+	public var mania:Int;
 	public var needsVoices:Bool = true;
+	public var arrowSkin:String;
+	public var splashSkin:String;
 	public var speed:Float = 1;
-	public var mania:Int = 0;
 
 	public var player1:String = 'bf';
 	public var player2:String = 'dad';
+	public var player3:String = 'gf';
 
 	public function new(song, notes, bpm)
 	{
@@ -42,7 +49,16 @@ class Song
 
 	public static function loadFromJson(jsonInput:String, ?folder:String):SwagSong
 	{
-		var rawJson = Assets.getText(Paths.json(folder.toLowerCase() + '/' + jsonInput.toLowerCase())).trim();
+		var rawJson;
+		if(jsonInput == 'events') { //Makes the game not crash while trying to load an events chart, doesn't work on HTML tho
+			#if sys
+			rawJson = sys.io.File.getContent(Paths.json(folder.toLowerCase() + '/events')).trim();
+			#else
+			rawJson = Assets.getText(Paths.json(folder.toLowerCase() + '/events')).trim();
+			#end
+		} else {
+			rawJson = Assets.getText(Paths.json(folder.toLowerCase() + '/' + jsonInput.toLowerCase())).trim();
+		}
 
 		while (!rawJson.endsWith("}"))
 		{

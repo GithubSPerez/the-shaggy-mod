@@ -1,0 +1,10 @@
+prompt:Aceptar:Declinar:intro/first/followups/accept:intro/first/followups/sad
+n_con:Qu-
+n_normal:OH solo soy
+n_con:Un espíritu deambulante, atrapado en una mascara#por alguien malvado
+n_happy:Y TU eres el único que puede ayudarme
+n_trauma:(El único que puede escucharme.......)
+n_con:Quiero ser liberado al fin de mi terrible ''''hechizo''''
+n_normal:Así que porfavor considera mi trato
+h_normal:3000 batallas de rap cortesía de mi
+n_happy:Que me dices?!

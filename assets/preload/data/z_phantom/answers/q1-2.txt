@@ -1,0 +1,17 @@
+menu
+n_normal:Before I got trapped in this mask, I was#somehing else.
+n_trauma:Something powerful
+n_trauma:I was feared by many, despised by more
+n_happy:I couldn't have asked for more power!! I had#everything...
+n_con:But when you get way too powerful, someone will#strip that away from you
+n_sad:Relentlessly
+s_normal:...:fadeOut
+s_angry:There's a being out there that likes to play god,#someone so powerful that you can't even imagine.#The one who left me like this.
+s_con:And I'm not talking about your regular old mythology#gods or the colorless godforms
+s_con:I'm speaking about total omnipotence
+s_con:But then again...
+s_normal:When you have that, who wouldn't wanna act like the#multiverse is in their hands?
+s_con:...
+h_sad:BUT DON'T WORRY ABOUT THAT!!!:fadeIn
+n_happy:With your help we can even overcome omnipotence!!
+n_normal:i think

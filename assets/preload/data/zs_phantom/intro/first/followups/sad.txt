@@ -1,0 +1,12 @@
+forceExit
+n_con:...
+n_sad:Oh...:musicStop
+n_sad:Entiendo completamente
+s_normal:Supongo que tendré que esperar
+h_sad:Unos pocos miles de millones de años mas
+n_con:Para encontrar mas ayuda...
+n_sad:Gracias de todas formas bee
+n_sad:Si en algún momento reconsideras... Estaré#aquí, esperando. no me voy a mover.
+n_con:Despues de todo, no puedo moverme jaja
+n_sad:...
+s_normal:Adiós

@@ -1,0 +1,6 @@
+continue:hint/frame
+n_normal:My FACE FRAME is missing
+n_con:You know, the thing where the things go in the thing
+n_normal:The base
+n_con:Half-Heart shaped shape
+h_normal:ANYWAYS

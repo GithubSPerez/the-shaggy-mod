@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_WBShaggy.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="M WBShaggy Idle0000" x="10" y="10" width="199" height="483" frameX="0" frameY="-1" frameWidth="199" frameHeight="484"/>
+	<SubTexture name="M WBShaggy Idle0001" x="229" y="10" width="198" height="484" frameX="-1" frameY="0" frameWidth="199" frameHeight="484"/>
+</TextureAtlas>

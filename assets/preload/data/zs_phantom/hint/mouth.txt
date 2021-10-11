@@ -1,0 +1,10 @@
+menu
+n_con:Creo que mi boca está colgando del techo de#una mansión
+n_normal:Y se cayó en algún momento
+n_happy:Me pregunto porqué (Si sé porqué)
+h_happy:La canción que estaban cantando ERA MALISIMA!!
+h_happy:Mi boca se rió tan fuerte que solo
+h_normal:se cayó
+h_sad:Creo que es una de las canciones que jugaste#en el segundo capítulo
+n_happy:Bueno eso atrapa a mi boca cuando se caiga#del techo
+n_normal:Debería ser facil no?

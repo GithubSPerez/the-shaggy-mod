@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ph_mask_old.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="h_happy0000" x="689" y="589" width="153" height="368"/>
+	<SubTexture name="h_normal0000" x="343" y="589" width="153" height="368"/>
+	<SubTexture name="h_sad0000" x="516" y="589" width="153" height="368"/>
+	<SubTexture name="n_con0000" x="249" y="10" width="219" height="329"/>
+	<SubTexture name="n_happy0000" x="727" y="10" width="219" height="329"/>
+	<SubTexture name="n_normal0000" x="10" y="10" width="219" height="329"/>
+	<SubTexture name="n_sad0000" x="488" y="10" width="219" height="329"/>
+	<SubTexture name="n_trauma0000" x="10" y="359" width="219" height="329"/>
+	<SubTexture name="s_angry0000" x="10" y="708" width="313" height="210"/>
+	<SubTexture name="s_con0000" x="566" y="359" width="297" height="210"/>
+	<SubTexture name="s_normal0000" x="249" y="359" width="297" height="210"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+menu
+h_normal:QUE BIEN!!:introAccept
+h_happy:No podría estar mas FELIZ de trabajar contigo!!
+n_normal:ejem..
+n_normal:Como valoro tu inteligencia como individuo no te voy a#servir en un plato la información que necesitas#para encontrar mis piezas
+n_happy:Pero, igual, si en algún momento te sientes un poco#perdido...
+h_happy:Sientete libre de hablar conmigo!#Sobre cualquier cosa!
+h_sad:(Por favor):musicStop

@@ -1,0 +1,7 @@
+sh:con:1:...
+sh:smug:1:I see you called my bluff?
+bf:normal:-1:baap?
+sh:normal:1:I mean like, you figured out I didn't#have full control over your platform...
+sh:smug:1:..and then you ignored me and just kept#like, floating down!
+bf:normal:-1:bep bee?
+sh:normal:1:Yeah, don't worry. I can save him.

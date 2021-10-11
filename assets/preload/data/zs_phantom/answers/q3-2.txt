@@ -1,0 +1,8 @@
+prompt:A ok:Pero le ganan a goku?:answers/followups/okay:answers/followups/goku
+n_normal:Espera...
+n_con:No me digas que les creíste el cuento de los#porcentajes de poder??
+h_happy:JAJAJA TONTO WEON SOLO TE ESTABAN#LESEANDO!!
+n_happy:Osea, no me mal entiendas, ellos SON#extremadamente fuertes, pero...
+n_con:Como mierda un ser podría saber su exacto#porcentaje de uso hasta los decimales??
+n_normal:Necesitas un lector externo para saber eso#(yo lo tengo)
+h_happy:Creeme, los numeritos que te dicen son GRANDES#exageraciones!!

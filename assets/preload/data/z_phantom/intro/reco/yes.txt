@@ -1,0 +1,3 @@
+continue:intro/first/followups/accept
+n_normal:R-Really??!
+n_happy:Oh my god:introMusic

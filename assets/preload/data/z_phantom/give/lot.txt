@@ -1,0 +1,3 @@
+exit
+h_happy:Oh!! You collected a lot of my pieces!!
+n_happy:You're doing a great job already, keep it up!!

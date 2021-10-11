@@ -1,0 +1,10 @@
+wbsh:normal:1:Impresionante.
+wbsh:smug:1:Lograste derrotar hasta a mi!
+bf:normal:-1:bee...
+wbsh:normal:1:Te debes sentir muy orgulloso de ti mismo
+wbsh:smug:1:Me alegro de poder haberte dado ese#sentimiento al intentar patearte el trasero
+bf:a:-1:...
+wbsh:smug:1:Bueno, eso es todo
+wbsh:normal:1:Ahora yo me voy.
+wbsh:smug:1:Si me pudiste ganar, seguramente#descubrirán como salir de este lugar.
+wbsh:laugh:1:Hasta nunca, viejo!

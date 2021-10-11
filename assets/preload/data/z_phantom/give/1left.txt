@@ -1,0 +1,6 @@
+menu
+h_happy:HELL YEAH
+n_happy:Holy shit!! Only one piece left!!
+n_normal:I believe in you bee. Last stretch of your adventure
+n_normal:With me
+h_happy:Fun fact - believing in me is literally an#incorrect statement

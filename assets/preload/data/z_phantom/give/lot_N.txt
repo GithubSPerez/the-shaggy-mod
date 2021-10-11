@@ -1,0 +1,5 @@
+exit
+n_normal:Oh!! You collected a lot of my pieces!!
+n_happy:That's... great!!
+n_con:You didn't even need my help, huh?
+n_normal:Well, I'm glad you're having an easy time finding them.

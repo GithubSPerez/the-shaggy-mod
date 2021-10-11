@@ -1,0 +1,5 @@
+continue:hint/mouth
+n_normal:One of my missing pieces is my MOUTH
+n_happy:With my MOUTH I can SPEAK
+n_con:Without it, I can only speak to you
+n_normal:(And your gee eff i think im not sure she's#just staring at me meanicingly)

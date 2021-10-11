@@ -1,0 +1,17 @@
+bf:normal:-1:boop ba beep?
+rsh:normal:1:Mi perro?
+rsh:con:1:Te refieres a Scooby?
+bf:normal:-1:baa
+rsh:ser:1:Se murió hace mucho tiempo...
+rsh:con:1:Espera, Como conoces a Scooby?
+bf:a:-1:...
+gf:normal:-1:Vimos a tu perro literalmente la#semana pasada
+rsh:ang:1:A así que Shaggy estuvo aquí.
+bf:a:-1:..baa?
+rsh:ser:1:No, no somos la misma persona.
+rsh:ser:1:Supongo que los visitó cuando le#conté sobre tu poder
+rsh:normal:1:También, sabían que ahora mismo#está en un torneo?
+rsh:smug:1:Su siguiente pelea empieza pronto y#no me la quiero perder.
+bf:normal:-1:..beep
+rsh:smug:1:Una mas?
+rsh:smug:1:Muy bien...

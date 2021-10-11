@@ -1,0 +1,9 @@
+menu
+h_happy:LO HICISTE!!! MI CARA ESTA COMPLETA!!!!:musicInit
+n_normal:Bee, eres legendario
+h_happy:Ahora finalmente puedo ser visto por todos
+n_happy:Hay algo que falta ahora
+n_normal:Si pudieras llevarme donde WB Shaggy#sería genial creo
+n_trauma:Quiero hacer una cosa:songScary
+h_normal:Pero es secreto así que no preguntes!!:songGood
+n_happy:Solo llevame, no te arrepentirás

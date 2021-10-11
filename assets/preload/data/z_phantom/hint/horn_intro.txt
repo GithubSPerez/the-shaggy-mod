@@ -1,0 +1,5 @@
+continue:hint/horn
+n_normal:One of my missing parts is my HORN
+h_happy:Vivid orange spiky thingy that gives me POWER!!! (no)
+n_happy:Couldn't live without it
+n_trauma:oh wait I can't live

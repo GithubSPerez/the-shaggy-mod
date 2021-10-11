@@ -1,0 +1,5 @@
+continue:hint/horn
+n_normal:Una de mis piezas es mi CUERNO
+h_happy:Espina de color naranjo que me da PODER!!! (no)
+n_happy:No podría vivir sin él
+n_trauma:a espera no puedo vivir

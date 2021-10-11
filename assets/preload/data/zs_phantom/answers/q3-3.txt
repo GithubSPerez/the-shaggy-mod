@@ -1,0 +1,22 @@
+markReplace:backstory:answers/q3-3-2
+n_normal:Su pasado?
+n_normal:El alto no ha pasado por mucho, por eso es el#más debil
+n_sad:Pero los otros han pasado por MUCHO.
+n_normal:El verde obtuvo sus poderes a los 17 años, el rojo#a los 18
+n_happy:Eran muy jovenes, creo que esa fue la clave para#su crecimiento de fuerza increíble
+n_con:Pero hubo un momento que marcó sus vidas...:fadeOut
+n_sad:Shaggy tenía este grupo entero de amigos. Pero#en un punto, algo terrible pasó.
+n_sad:Una de sus amigas se volvió loca y...
+n_sad:Mató a todos.
+s_normal:Shaggy verde la amaba profundamente, fue#muy doloroso para él verla en ese estado sicótico.
+s_normal:Él logró que ella no matara a Scooby, antes#de que ella acabara con su propia vida.
+n_sad:Shaggy rojo no tuvo tanta suerte. Él no tenía una#conexión tan cercana con ella#así que no estaba presente cuando la masacre ocurrió.
+s_normal:Solo volvió del almuerzo y se encontró a su#grupo entero... muerto...
+n_sad:...
+n_con:Se han vuelto mas y mas fuertes desde entonces
+n_sad:Estaban devastados en ese momento, especialmente#shaggy verde.
+n_con:Pero por suerte, lograron superar el trauma:fadeIn
+n_normal:Ahora tienen 70 años y se centran en descubrir#lugares atraves del pasillo!
+n_normal:Siguen volviendose mas poderosos y#encontrando mas oponentes.
+n_happy:Es genial verlos felices.
+n_con:A y en algún momento se volvieron buenos#cantantes??

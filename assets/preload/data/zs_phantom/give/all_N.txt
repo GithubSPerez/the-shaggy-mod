@@ -1,0 +1,8 @@
+exit
+n_normal:...
+n_con:Lo... Lograste...?
+n_normal:Recolectaste todas mis partes.#Sin necesitar nada de mi ayuda.
+n_sad:No hablamos casi nada ahora que lo pienso
+n_con:Bueno, solo queda una cosa
+n_normal:Llevame a donde está WB Shaggy
+n_normal:Tengo que hacer algo.

@@ -1,0 +1,6 @@
+menu
+n_normal:Believe it or not, my eye was STOLEN!!
+n_sad:By the cockiest shaggy I know
+s_angry:He just took it and pocketed it!! Like it was a#fucking penny on the street!!!!
+h_happy:Luckily the shaggy that took it is also the#stupidest one
+n_normal:He probably drops it after he screams his#lungs out singing

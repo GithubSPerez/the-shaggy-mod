@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_ShaggyMatt.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="M ShaggyMatt Idle0000" x="1086" y="800" width="344" height="366" frameX="0" frameY="-28" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0001" x="1086" y="800" width="344" height="366" frameX="0" frameY="-28" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0002" x="1078" y="1186" width="341" height="367" frameX="-2" frameY="-27" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0003" x="727" y="425" width="339" height="372" frameX="-4" frameY="-22" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0004" x="369" y="824" width="337" height="372" frameX="-4" frameY="-22" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0005" x="374" y="425" width="333" height="379" frameX="-6" frameY="-15" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0006" x="1439" y="1188" width="330" height="379" frameX="-6" frameY="-15" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0007" x="358" y="10" width="327" height="394" frameX="-8" frameY="-1" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0008" x="358" y="10" width="327" height="394" frameX="-8" frameY="-1" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0009" x="358" y="10" width="327" height="394" frameX="-8" frameY="-1" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0010" x="358" y="10" width="327" height="394" frameX="-8" frameY="-1" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0011" x="10" y="10" width="328" height="395" frameX="-7" frameY="0" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0012" x="10" y="10" width="328" height="395" frameX="-7" frameY="0" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0013" x="10" y="10" width="328" height="395" frameX="-7" frameY="0" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0014" x="10" y="10" width="328" height="395" frameX="-7" frameY="0" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0015" x="10" y="425" width="344" height="367" frameX="0" frameY="-28" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0016" x="10" y="425" width="344" height="367" frameX="0" frameY="-28" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0017" x="1450" y="800" width="342" height="368" frameX="-1" frameY="-27" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0018" x="1396" y="409" width="341" height="371" frameX="-2" frameY="-24" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0019" x="10" y="812" width="339" height="371" frameX="-2" frameY="-24" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0020" x="1396" y="10" width="334" height="379" frameX="-5" frameY="-16" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0021" x="727" y="817" width="331" height="379" frameX="-5" frameY="-16" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0022" x="1050" y="10" width="326" height="393" frameX="-9" frameY="-2" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0023" x="1050" y="10" width="326" height="393" frameX="-9" frameY="-2" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0024" x="1050" y="10" width="326" height="393" frameX="-9" frameY="-2" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0025" x="1050" y="10" width="326" height="393" frameX="-9" frameY="-2" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0026" x="705" y="10" width="325" height="395" frameX="-10" frameY="0" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0027" x="705" y="10" width="325" height="395" frameX="-10" frameY="0" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0028" x="705" y="10" width="325" height="395" frameX="-10" frameY="0" frameWidth="344" frameHeight="395"/>
+	<SubTexture name="M ShaggyMatt Idle0029" x="705" y="10" width="325" height="395" frameX="-10" frameY="0" frameWidth="344" frameHeight="395"/>
+</TextureAtlas>

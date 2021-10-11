@@ -1,0 +1,10 @@
+menu
+n_happy:Hey there!!
+n_normal:Welcome:addNext
+n_happy:To the:tied
+n_normal:Hello
+n_normal:Welcome
+n_happy:Heya
+n_normal:I formaly salute you.
+n_happy:Hi!!!
+n_happy:Welcome back!!

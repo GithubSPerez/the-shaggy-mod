@@ -1,0 +1,4 @@
+forgotPart
+n_trauma:OH CASI SE ME OLVIDA
+n_happy:Ya recolectaste una de mis piezas
+n_happy:Me la puedes pasar?

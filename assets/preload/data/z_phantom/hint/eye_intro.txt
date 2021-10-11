@@ -1,0 +1,5 @@
+prompt:Yes:No:hint/followups/eye_yes:hint/followups/eye_no
+n_normal:My only missing piece now is my EYE
+n_happy:Has more importance than just sight of course
+n_normal:...
+h_normal:Would you believe me if I told you it could#shoot LASERS??

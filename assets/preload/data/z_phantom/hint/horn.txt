@@ -1,0 +1,8 @@
+menu
+n_con:I actually dropped my horn myself
+n_normal:And I kinda maybe left it like
+n_normal:Outside
+h_sad:Of the plane of existence??
+n_con:I mean don't get me wrong, it IS outside of the mansion
+n_normal:But you know, you have to find a moment in which the#fabric of space twists or rotates or something
+n_happy:So you can peek OUTSIDE of reality!!

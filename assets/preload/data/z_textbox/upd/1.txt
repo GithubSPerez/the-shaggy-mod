@@ -1,0 +1,13 @@
+rsh:ser:1:...
+rsh:con:1:Why did you follow me?
+bf:normal:-1:beepee bo
+rsh:ang:1:Jeez, I don't know
+rsh:ang:1:Like, how would YOU feel if someone else#controlled your existence?
+rsh:sad:1:...
+rsh:ser:1:I- I'm sorry man, it's not that serious.
+bf:normal:-1:...
+rsh:con:1:Guessing you want to sing again?
+bf:normal:-1:beep bap boop
+rsh:con:1:Alright, but like, let's chill a bit
+rsh:ser:1:I don't want to make it too hard
+rsh:kill:1:I could stop existing, y'know?

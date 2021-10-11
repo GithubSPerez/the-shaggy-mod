@@ -1,0 +1,6 @@
+continue:hint/frame
+n_normal:Me falta el MARCO de mi cara
+n_con:Ya sabes, la cosa en donde las cosas van en las cosas
+n_normal:La base
+n_con:Forma en forma de mitad de corazón
+h_normal:BUENO

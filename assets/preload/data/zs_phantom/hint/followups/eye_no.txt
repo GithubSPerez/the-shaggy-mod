@@ -1,0 +1,3 @@
+continue:hint/eye
+n_happy:Si tienes razón jeje
+n_normal:No lo necesito de todas formas, puedo destrozar#un planeta con la mirada

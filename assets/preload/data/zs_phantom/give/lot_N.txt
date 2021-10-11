@@ -1,0 +1,5 @@
+exit
+n_normal:Oh!! Recolectaste muchas piezas!!
+n_happy:Eso es... bueno!!
+n_con:Ni siquiera necesitaste de mi ayuda
+n_normal:Bueno, me alegro de que te esté siendo#facil encontrarlas.

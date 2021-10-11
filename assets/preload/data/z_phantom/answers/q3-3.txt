@@ -1,0 +1,22 @@
+markReplace:backstory:answers/q3-3-2
+n_normal:His past, huh?
+n_normal:The tall one hasn't been through much, that's why#he's the weakest
+n_sad:But the other ones have been through a LOT.
+n_normal:The green one obtained his power at 17, the red one#at 18
+n_happy:They were really young, I think that was the key to#their amazing strength growth
+n_con:But there was one marking moment in their lives...:fadeOut
+n_sad:Shaggy had this hole gang of friends. But at one#point, something terrible happened.
+n_sad:One of his friends went crazy and...
+n_sad:She killed everyone.
+s_normal:Green Shaggy loved her deeply, it was really#painful for him to see her break down like that.
+s_normal:He was able to stop her from killing Scooby,#before she took her own life.
+n_sad:Red Shaggy wasn't so lucky. He didn't have such a#strong connection with her so he#wasn't there when the massacre happened.
+s_normal:He just came back from lunch to find... His hole#gang dead...
+n_sad:...
+n_con:They've gotten stronger and stronger ever since.
+n_sad:They were devastated at the time, specially#green Shaggy.
+n_con:Thankfully, they were able to move past it:fadeIn
+n_normal:Now they are 70 years old and focus on discovering#places across the hall!
+n_normal:They keep getting stronger and finding new#opponents.
+n_happy:It's nice to see them happy.
+n_con:Oh and at some point they became good singers??

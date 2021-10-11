@@ -1,0 +1,5 @@
+sh:normal:1:Eres bastante bueno amigo
+sh:normal:1:No quiero aburrirte así que voy#a cantar mas rapido.
+bf:normal:-1:beep boop boop bap bee
+sh:ser:1:...
+sh:smug:1:Muy bien, muy bien...#Aquí vamos viejo!

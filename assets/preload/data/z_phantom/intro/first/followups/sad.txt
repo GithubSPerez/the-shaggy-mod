@@ -1,0 +1,12 @@
+forceExit
+n_con:...
+n_sad:Oh...:musicStop
+n_sad:I completely understand
+s_normal:I guess, I'll have to wait
+h_sad:A couple more eons
+n_con:To find more help...
+n_sad:Thanks anyways bee
+n_sad:If you ever reconsider... I'll be here, waiting.#I won't move.
+n_con:I can't after all haha
+n_sad:...
+s_normal:Bye bye

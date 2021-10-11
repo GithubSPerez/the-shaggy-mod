@@ -1,0 +1,4 @@
+exit
+h_happy:Thank you bee!!
+n_normal:Now there's 3 pieces left
+n_happy:Good luck!!!

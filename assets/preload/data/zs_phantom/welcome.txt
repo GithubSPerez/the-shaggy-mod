@@ -1,0 +1,11 @@
+menu
+n_happy:Hola!!
+n_normal:Bienvenido:addNext
+n_happy:A latam:tied
+n_normal:Buenas!!
+n_normal:Bienvenido
+n_happy:Wena
+n_normal:Te saludo formalmente.
+n_happy:Cuanto tiempo!!!:addNext
+n_normal:3 segundos??:tied
+n_happy:Bienvenido devuelta!!

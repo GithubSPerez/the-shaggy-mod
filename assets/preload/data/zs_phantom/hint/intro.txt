@@ -1,0 +1,5 @@
+facePartsIntro
+n_happy:Ah si las piezas de mi cara
+n_normal:Se me fueron arrebatadas y ahora están#esparramadas por ahí
+n_happy:Pero no están nada lejos!!
+h_normal:Te será muy facil encontrarlas todas!!#CREEME!!

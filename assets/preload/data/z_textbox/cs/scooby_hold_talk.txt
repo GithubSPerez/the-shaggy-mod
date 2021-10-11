@@ -1,0 +1,7 @@
+sh:ser:1:Like, what's wrong scoob?
+scb:scared:1:The monster shraggy...
+scb:scared:1:She's mean!
+scb:scared:1:She scares me...
+sh:con:1:What are you talking about?#This lady?
+sh:smug:1:She's like, totally cool man!
+sh:normal:1:Why are you saying that

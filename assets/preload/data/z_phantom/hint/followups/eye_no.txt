@@ -1,0 +1,3 @@
+continue:hint/eye
+n_happy:You're right I'm just playing hehe
+n_normal:I don't need that anyways, I can shred a planet#with just a peek

@@ -1,0 +1,8 @@
+prompt:Oh okay:Would they beat goku tho:answers/followups/okay:answers/followups/goku
+n_normal:Wait...
+n_con:Don't tell me you bought into their percentage#bullshit??
+h_happy:HAHAHA YOU FOOL THEY'RE JUST PLAYING#WITH YOU!!
+n_happy:I mean, don't get me wrong, they ARE extremely#strong, but...
+n_con:How the fuck would a being know his exact#usage percentage down to the decimals??
+n_normal:You need an external reader to do that (which I had)
+h_happy:I tell you, the numbers they spit at you are VAST#exaggerations!!

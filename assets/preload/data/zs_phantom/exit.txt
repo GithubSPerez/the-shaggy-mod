@@ -1,0 +1,10 @@
+exit
+n_happy:Chaito!!
+n_happy:Nos vemos en...:addNext
+n_con:eee...:tied
+n_normal:Devuelta a los menus
+n_happy:Nos vemos!!
+n_happy:Asegurate de no morir!!:addNext
+n_normal:A espera no puedes:tied
+n_normal:Adiós!!
+n_normal:Chao chao!!

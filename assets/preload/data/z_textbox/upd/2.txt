@@ -1,0 +1,12 @@
+bf:normal:-1:bop ba
+rsh:ang:1:What do you mean "that's it"?!
+rsh:con:1:I told you I don't wanna-
+bf:burn:-1:bup baap bee bom pa
+rsh:ang:1:Oh so that's how it's gonna be?#You'll give up if you get bored?!
+bf:normal:-1:bapee bo
+rsh:con:1:...
+rsh:smug:1:Heh
+rsh:smug:1:I somewhat admire your cleverness punk.
+rsh:smug:1:Fine, Imma step it up.
+rsh:ser:1:I got nothing to lose anyway.
+bf:burn:-1:baap!

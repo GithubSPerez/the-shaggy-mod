@@ -1,0 +1,15 @@
+rsh:normal:1:Esto es un adiós, por ahora.
+gf:normal:-1:Espera, hay mas versiones de ustedes?
+rsh:ser:1:Ee... Creo que sí, estoy bastante seguro.
+rsh:ser:1:Pero yo conozco solo a uno más
+bf:burn:-1:bap bop beep!!
+rsh:ser:1:O no, no creo que te gustaría...
+rsh:smug:1:O sabes que? A quien engaño, por supuesto#que te gustaría conocerlo.
+rsh:normal:1:Le diré que los visite cuando me vaya#de aquí.
+rsh:smug:1:Aunque, tengan cuidado. Ese tipo es un#poco excéntrico
+rsh:smug:1:No tengo ni idea de como lo hace, pero#nisiquiera necesita pasar por el pasillo para#viajar entre universos
+rsh:normal:1:Los puede sorprender
+gf:happy:-1:Oh?
+bf:burn:-1:bap!
+rsh:smug:1:Jeje, okey, okey
+rsh:normal:1:Nos vemos amigos!

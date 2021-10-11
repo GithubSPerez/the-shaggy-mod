@@ -1,0 +1,2 @@
+menu
+n_normal:Si no les compres el cuento

@@ -1,0 +1,5 @@
+prompt:Si:No:hint/followups/eye_yes:hint/followups/eye_no
+n_normal:Mi unica pieza que falta ahora es mi OJO
+n_happy:Sirve para mas que solo mirar por supuesto
+n_normal:...
+h_normal:Me creerías si te dijiera que puede disparar LASERS??

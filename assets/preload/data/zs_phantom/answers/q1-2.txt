@@ -1,0 +1,17 @@
+menu
+n_normal:Antes de que me atraparan en esta#máscara, yo era algo distinto
+n_trauma:Algo poderoso
+n_trauma:Muchos me temían, aún mas me odiaban
+n_happy:No podría haber querido mas poder!! lo tenía#todo...
+n_con:Pero cuando te vuelves muy poderoso, alguien#te lo va a quitar
+n_sad:Sin piedad
+s_normal:...:fadeOut
+s_angry:Existe un ser que le gusta jugar a ser dios,#alguien tan poderoso que ni te lo podrías imaginar.#El que me dejó así.
+s_con:Y no hablo de tus dioses regulares de mitología o#las formas god sin color
+s_con:Hablo de omnipotencia total
+s_con:Pero igual...
+s_normal:Cuando tienes eso, a quién no le gustaría actuar#como que el multiverso está en sus manos?
+s_con:...
+h_sad:PERO NO TE PREOCUPES POR ESO!!!:fadeIn
+n_happy:Con tu ayuda le podemos ganar a la omnipotencia!!
+n_normal:creo

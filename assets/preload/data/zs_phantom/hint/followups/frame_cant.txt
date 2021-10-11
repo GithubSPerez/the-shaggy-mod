@@ -1,0 +1,10 @@
+menu
+n_sad:QUE?! A que te refieres?
+n_con:a sierto que te hace flotar#(para qué?? para verse cool????)
+n_normal:Mira la cosa no es como lo parece
+n_happy:Hay una regla que todo universo en el pasillo sigue
+h_normal:"Si estas en ell, la plataforma es TUYA"
+n_happy:Basicamente Shaggy no puede controlar la altura#de tu plataforma
+n_normal:Así que solo
+h_happy:VE HACIA ABAJO!! PRESIONA ABAJO!! MANTEN ABAJO!!!!
+h_sad:O arriba si quieres no se tienes control total#sobre ella

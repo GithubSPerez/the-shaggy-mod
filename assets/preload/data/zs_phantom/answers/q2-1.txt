@@ -1,0 +1,12 @@
+menu
+n_normal:A quieres saber como llegué aquí?
+n_happy:Lo chistoso es que no lo sé
+n_con:En un momento estaba haciendo mi trabajo y lo#siguiente que recuerdo es estar así destrozado
+n_sad:Aunque, recuerdo haber tenido una visión#antes de transformarme, escuché una#voz extraña
+n_sad:Pero...
+n_con:Ahora mismo no quiero entrar en detalle.
+n_normal:No tengo ni idea de por que fue escogido este#lugar, supongo que tiene algo que ver con la#extrema discontinuación del tiempo que ocurre aquí
+n_con:He estado aquí por mil millones de años y tu sigues#teniendo 19
+n_con:...
+h_normal:BUENO, AHORA ESTOY ACA
+h_sad:Tuve mala suerte, perdí mi cara y ya no puedo#hacer mucho que digamos

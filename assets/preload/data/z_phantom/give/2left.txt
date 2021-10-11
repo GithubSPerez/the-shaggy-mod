@@ -1,0 +1,8 @@
+menu
+h_happy:LESS GOOOO!!!!
+n_happy:2 pieces left!! I'm close to complete!!
+n_happy:You're the coolest bee, thanks for helping me out#on this
+n_normal:Fun fact - It is phisically impossible for me to be cool
+h_happy:Ghosts cannot be touched so they have no#temperature!!
+h_normal:. . .
+h_sad:Right??

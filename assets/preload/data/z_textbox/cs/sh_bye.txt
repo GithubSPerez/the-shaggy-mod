@@ -1,0 +1,4 @@
+sh:normal:1:I heard they're gathering up some powerful#individuals for a tournament in#a universe close by...
+sh:smug:1:And if Saitama's gonna be there, I can't#miss it.
+sh:normal:1:So like, goodbye! For now at least.
+sh:kill:1:Oh and next time you cut scooby in half I'm#not gonna pretend like singing is#my only option again.

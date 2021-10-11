@@ -1,0 +1,7 @@
+sh:ser:1:Que te sucede Scooby?
+scb:scared:1:El monstruo Shaggy...
+scb:scared:1:Ella es mala!
+scb:scared:1:Me da susto...
+sh:con:1:De quién hablas?#Esta señorita?
+sh:smug:1:Ella es cool viejo!
+sh:normal:1:Por qué estas diciendo que

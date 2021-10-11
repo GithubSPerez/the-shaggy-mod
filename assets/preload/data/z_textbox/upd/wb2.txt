@@ -1,0 +1,10 @@
+wbsh:normal:1:Damn, impressive!
+wbsh:smug:1:You've managed to defeat even me!
+bf:normal:-1:bee...
+wbsh:normal:1:You must feel pretty proud of yourself
+wbsh:smug:1:I'm glad I could give you that feeling through#trying to beat your ass.
+bf:a:-1:...
+wbsh:smug:1:Welp, that's about it.
+wbsh:normal:1:I'm gonna like, leave now.
+wbsh:smug:1:If you could beat me, you'll surely figure#out how to get out of this place.
+wbsh:laugh:1:See ya never, punk!

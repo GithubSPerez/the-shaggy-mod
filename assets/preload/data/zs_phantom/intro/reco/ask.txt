@@ -1,0 +1,4 @@
+prompt:Acepto el trato:No:intro/reco/yes:intro/reco/no
+s_con:Oh
+n_normal:Volviste!
+n_con:Ee... Has reconsiderado?

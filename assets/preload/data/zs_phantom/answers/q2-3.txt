@@ -1,0 +1,15 @@
+menu
+n_normal:Oh no es realmente una familia diría yo...
+n_normal:Piensalo como creador y sus creaciónes
+n_happy:Solo le decíamos papá a nuestro creador
+n_normal:Su nombre es 'The Merciless sun god'
+n_con:Mis 2 hermanos se llamaban 'Excelsior the cat' y#'Big lion'
+n_con:Lo cual me hace preguntarme quien les puso#esos nombres????
+n_normal:Como sea.
+n_con:Eso sí, nunca conocí a Excelsior
+n_sad:Big lion lo mató.:songScary
+h_sad:GENIAL NO?? Tener un MANIACO como hermano?????
+n_sad:... Perdón
+n_con:Al final lo sobrepasé en poder, sobrepasé incluso a#mi papá:songGood
+n_sad:Y cuando el Big lion intentó ir por mi papá, hice#lo que tenía que hacer.:fadeOut
+h_normal:Imagina intentar matar a tu familia por#un DESACUERDO?!!?:fadeIn

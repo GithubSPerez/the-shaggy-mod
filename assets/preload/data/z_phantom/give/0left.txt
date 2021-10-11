@@ -1,0 +1,9 @@
+menu
+h_happy:YOU DID IT!!! MY FACE IS NOW COMPLETE!!!!:musicInit
+n_normal:Bee, you're legendary
+h_happy:Now I can finally be seen by everyone
+n_happy:There's one more thing that's left now
+n_normal:If you could take me to where WB Shaggy is#it would be pretty cool I think
+n_trauma:I wanna do something:songScary
+h_normal:But it's a secret so don't ask!!:songGood
+n_happy:Just take me there, you won't regret it

@@ -1,0 +1,17 @@
+prompt:Aceptar:Quien eres:intro/first/followups/accept:intro/first/followups/who
+n_happy:Oh hola!!!
+n_happy:Me alegro de verte aquí bee efe.:introMusic
+n_happy:Me alegro de poder hablar con un ser vivo
+n_normal:He estado en confinamiento solitario por
+n_trauma:miles de millones de años
+n_normal:Bueno, puedo ver que tienes una parte de#mi cara no es así??
+n_happy:Creo que necesito que eso vuelva al lugar#que le pertenece... (mi cara)
+n_normal:Pero no me gustaría simplemente
+n_trauma:ARREBATARTELO sin darte nada a cambio...
+n_normal:Así que te voy a ofrecer un trato!!
+n_normal:Me das esa cosa que encontraste y me ayudas a#encontrar mis otras weás
+n_normal:Y yo te doy...
+h_normal:3000 BATALLAS DE RAP!!!!
+h_happy:TE GUSTAN ESAS, CIERTO??
+n_normal:Bueno que dices bee
+n_happy:Tenemos un trato??

@@ -1,0 +1,3 @@
+sh:normal:1:Hey
+bf:normal:-1:Chupame los cocos
+sh:kill:1:11

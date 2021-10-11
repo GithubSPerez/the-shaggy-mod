@@ -1,0 +1,5 @@
+facePartsIntro
+n_happy:Ah yes the parts of my face
+n_normal:They've been stripped away from me and are#now scattered
+n_happy:But they're not far apart at all!!
+h_normal:You'll have an easy time finding all of them!!#BELIEVE ME!!

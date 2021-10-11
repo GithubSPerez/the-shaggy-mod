@@ -1,0 +1,4 @@
+sh:normal:1:Caracoles! Perdí el control por un momento...
+sh:normal:1:Lo siento viejo, no quiero que#sea injusto para ti ni nada.
+bf:normal:-1:beep boop
+sh:smug:1:Muy bien. Ahora, preparate.

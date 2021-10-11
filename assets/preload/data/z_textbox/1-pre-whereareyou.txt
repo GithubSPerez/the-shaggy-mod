@@ -1,0 +1,8 @@
+sh:ser:1:Hey you guys
+sh:ser:1:I'm looking for a dog that got lost#in this mansion
+sh:ser:1:His name is scooby, have you like seen him#or anything?
+bf:normal:-1:beep bap boop
+sh:con:1:You wanna like, sing?#But I haven't found scoobs yet
+bf:normal:-1:bop bee bap 
+sh:ser:1:I sure hope so too...
+sh:smug:1:Alright, just a couple of songs though, I#don't know that many

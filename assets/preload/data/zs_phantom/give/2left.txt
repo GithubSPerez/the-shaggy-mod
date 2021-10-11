@@ -1,0 +1,8 @@
+menu
+h_happy:VAMOSSS!!!!
+n_happy:Faltan 2!! Estoy cerca de estar completo!!
+n_happy:Eres el mejor bee, gracias por ayudarme#en esto.
+n_normal:Dato curioso - Hay una parte del mundo#en donde se le dice "completo" a los hot dogs
+h_happy:A quien se le ocurrió es nombre??#Es físicamente imposible que un hot dog esté completo!!
+h_normal:. . .
+h_sad:Creo??

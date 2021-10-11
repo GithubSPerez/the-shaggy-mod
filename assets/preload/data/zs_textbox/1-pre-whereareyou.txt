@@ -1,0 +1,8 @@
+sh:ser:1:Disculpen
+sh:ser:1:Estoy buscando a un perro que se#perdió en esta mansión
+sh:ser:1:Se llama Scooby, lo han visto por#ahí?
+bf:normal:-1:beep bap boop
+sh:con:1:Que quieres cantar?#Pero todavía no encuentro a Scooby...
+bf:normal:-1:bop bee bap 
+sh:ser:1:También espero que esté bien...
+sh:smug:1:Okey viejo, pero solo un par de#canciones, no me sé muchas

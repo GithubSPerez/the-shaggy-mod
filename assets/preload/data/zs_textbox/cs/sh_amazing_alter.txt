@@ -1,0 +1,7 @@
+sh:con:1:...
+sh:smug:1:Veo que te diste cuenta?
+bf:normal:-1:baap?
+sh:normal:1:Osea, descubriste que no tengo control#sobre tu plataforma...
+sh:smug:1:..Y luego me ignoraste y seguiste#flotando hacia abajo!
+bf:normal:-1:bep bee?
+sh:normal:1:Si, no te preocupes, lo puedo#salvar.

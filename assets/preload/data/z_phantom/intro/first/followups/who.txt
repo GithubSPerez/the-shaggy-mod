@@ -1,0 +1,10 @@
+prompt:Accept:Decline:intro/first/followups/accept:intro/first/followups/sad
+n_con:Wh-
+n_normal:OH I'm just
+n_con:A wondering spirit, trapped in a mask by someone evil
+n_happy:And YOU are the only one that can help me
+n_trauma:(The only one that can hear me.......)
+n_con:I want to be free at last from my terrible ''''curse''''
+n_normal:So please please consider my deal
+h_normal:3000 rap battles courtesy of myself
+n_happy:What do you say?!

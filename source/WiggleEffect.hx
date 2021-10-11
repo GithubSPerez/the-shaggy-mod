@@ -30,6 +30,11 @@ class WiggleEffect
 		shader.uTime.value[0] += elapsed;
 	}
 
+	public function setValue(value:Float):Void
+	{
+		shader.uTime.value[0] = value;
+	}
+
 	function set_effectType(v:WiggleEffectType):WiggleEffectType
 	{
 		effectType = v;

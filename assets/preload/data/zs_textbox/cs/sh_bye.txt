@@ -1,0 +1,4 @@
+sh:normal:1:Escuché que están juntando a varios#individuos poderosos para un torneo en un#universo cercano...
+sh:smug:1:Y si Saitama estará ahí, no me lo#puedo perder.
+sh:normal:1:Así que, nos vemos! quizá nos#crucemos en algún otro momento.
+sh:kill:1:A y a la proxima que corten a Scooby#por la mitad no voy a finjir que mi#única opción es cantar.

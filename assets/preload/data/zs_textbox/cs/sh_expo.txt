@@ -1,0 +1,14 @@
+sh:smug:1:Te asusté no?
+bf:a:-1:bee
+sh:normal:1:No necesito ni un chasquido para#salvar a todos los seres muriendo en#el planeta.
+gf:normal:-1:No hubiera matado a tu perro si no#supiera eso.
+sh:ser:1:...
+sh:normal:1:Bueno, a decir verdad, Scooby te estaba#buscando
+sh:normal:1:Vinimos a tu universo porque escuchamos#que un adolecente era inmortal.
+sh:smug:1:Y me ganaste a la primera!
+sh:con:1:Desde mi perspectiva almenos...
+sh:con:1:Asumo que tienes una habilidad para volver#en el tiempo así que me alegro#de que no desaté mi poder completo.
+bf:normal:-1:baap be?
+sh:normal:1:0.002%
+bf:a:-1:a
+sh:normal:1:Bueno, ahora nos tenemos que ir.

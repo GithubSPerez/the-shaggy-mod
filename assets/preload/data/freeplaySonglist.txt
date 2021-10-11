@@ -1,0 +1,12 @@
+Where-are-you:shaggy:0xFFCFCFCF
+Eruption:shaggy:0xFFF9BB00
+Kaio-ken:sshaggy:0xFFEA4747
+Whats-new:shaggy:0xFF01C6FF
+Blast:sshaggy:0xFFEBEBEB
+Super-saiyan:sshaggy:0xFFFF7800
+GOD-EATER:pshaggy:0xFF644073
+Soothing-power:rshaggy:0xFF18A48D
+Thunderstorm:rshaggy:0xFFFCC61A
+Dissasembler:rshaggy:0xFF7149A8
+Astral-calamity:wbshaggy:0xFF9C0079
+Talladega:zshaggy:0xFF686868

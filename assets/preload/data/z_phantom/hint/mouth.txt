@@ -1,0 +1,10 @@
+menu
+n_con:I think my mouth is hanging from the ceiling of#a mansion
+n_normal:And it fell at some point
+n_happy:I wonder why (I totally know why)
+h_happy:The song you were singing SUCKED ASS!!
+h_happy:My mouth laughed so hard it just
+h_normal:fell
+h_sad:I think it was one of the songs you played in#chapter 2
+n_happy:So yeah catch my mouth when it falls from the ceiling
+n_normal:Should be easy right?

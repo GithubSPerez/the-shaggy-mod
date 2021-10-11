@@ -1,0 +1,12 @@
+bf:normal:-1:bop ba
+rsh:ang:1:Que quieres decir con "que fome"?!
+rsh:con:1:Te dije que no quiero-
+bf:burn:-1:bup baap bee bom pa
+rsh:ang:1:A así que con esas estamos?#Te vas a rendir si te aburres?!
+bf:normal:-1:bapee bo
+rsh:con:1:...
+rsh:smug:1:Je je
+rsh:smug:1:Admiro tu astucia maldito.
+rsh:smug:1:Ya bueno, voy a hacerlo mas difícil.
+rsh:ser:1:De todas formas, no tengo nada#que perder.
+bf:burn:-1:baap!

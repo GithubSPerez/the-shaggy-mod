@@ -1,0 +1,13 @@
+menu
+s_angry:Oh yo odio a ese tipo
+s_con:No a los panas, odio al alto
+n_normal:Pero todos ellos tienen algo en común
+n_normal:Su poder increíble (zzzzz)
+n_happy:Los Shaggys pueden lograr muchas cosas, diría que#son bastante fuertes.
+n_normal:He estado siguiendo su vida desde el comienzo, antes#de que me convirtiera en mascara!!
+n_happy:Parecían interesantes...
+n_normal:(El alto no)
+n_sad:Su vida ha sido como una tragedia!! Es muy triste...
+n_normal:(La del alto no)
+n_con:El Shaggy rojo ha sido muy fuerte mentalmente,#incluso atraves de su dolorosa vida
+n_normal:Pero el Shaggy verde...

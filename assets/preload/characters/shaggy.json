@@ -1,0 +1,165 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				165,
+				-114
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 30,
+			"name": "shaggy_left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-10,
+				-160
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 30,
+			"name": "shaggy_down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-16,
+				27
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 30,
+			"name": "shaggy_up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-1,
+				-38
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 30,
+			"name": "shaggy_right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 30,
+			"name": "shaggy_idle0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "idle2",
+			"name": "shaggy_idle2"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle_s",
+			"fps": 30,
+			"name": "shaggy_super_idle0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "powerup",
+			"fps": 24,
+			"name": "shaggy_powerup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				140,
+				90
+			],
+			"loop": false,
+			"anim": "catch",
+			"fps": 30,
+			"name": "shaggy_catch",
+			"indices": []
+		},
+		{
+			"offsets": [
+				90,
+				100
+			],
+			"loop": false,
+			"anim": "hold",
+			"fps": 30,
+			"name": "shaggy_hold",
+			"indices": []
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"loop": false,
+			"anim": "h_half",
+			"fps": 30,
+			"name": "shaggy_h_half",
+			"indices": []
+		},
+		{
+			"offsets": [
+				130,
+				0
+			],
+			"loop": false,
+			"anim": "fall",
+			"fps": 30,
+			"name": "shaggy_fall",
+			"indices": []
+		},
+		{
+			"offsets": [
+				110,
+				-123
+			],
+			"loop": false,
+			"anim": "kneel",
+			"fps": 30,
+			"name": "shaggy_half_ground",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/shaggy",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "shaggy",
+	"flip_x": false,
+	"healthbar_colors": [
+		51,
+		114,
+		74
+	],
+	"camera_position": [
+		-280,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,8 @@
+menu
+n_con:Yo mismo fui el que botó mi cuerno
+n_normal:Y creo que quizás lo dejé
+n_normal:Afuera
+h_sad:Del plano de existencia??
+n_con:Osea no me mal entiendas, mi cuerno sí está afuera#de la mansión
+n_normal:Pero, tienes que encontrar un momento en donde la#fabrica del espacio se tuerza o gire o algo
+n_happy:Para que puedas ver AFUERA de la realidad!!

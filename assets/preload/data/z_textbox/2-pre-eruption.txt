@@ -1,0 +1,4 @@
+sh:normal:1:Zoinks! I lost control for a second...
+sh:normal:1:I'm sorry man, don't wanna make it#unfair for you or anything.
+bf:normal:-1:beep boop
+sh:smug:1:Okay, like, get ready now and stuff

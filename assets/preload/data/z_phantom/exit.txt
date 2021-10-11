@@ -1,0 +1,10 @@
+exit
+n_happy:Gbye!!
+n_happy:See ya in...:addNext
+n_con:uh...:tied
+n_normal:Goin' back to the menu
+n_happy:See ya!!
+n_happy:Be sure to not die!!:addNext
+n_normal:Oh wait you can't:tied
+n_normal:Later!!
+n_normal:Bye bye!!

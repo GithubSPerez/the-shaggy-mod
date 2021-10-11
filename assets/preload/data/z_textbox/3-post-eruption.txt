@@ -1,0 +1,5 @@
+sh:normal:1:You're like, actually good and stuff
+sh:normal:1:I don't wanna like bore you, so I'll#sing faster this time
+bf:normal:-1:beep boop boop bap bee
+sh:ser:1:...
+sh:smug:1:Alright, alright...#Here we go man!

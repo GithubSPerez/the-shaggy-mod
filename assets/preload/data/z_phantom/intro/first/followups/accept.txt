@@ -1,0 +1,8 @@
+menu
+h_normal:AMAZING!!:introAccept
+h_happy:Couldn't be HAPPIER to be working with you!!
+n_normal:ahem..
+n_normal:As I value your intelligence as an individual I will not#spoon-feed you the information you need to know#to find my pieces
+n_happy:But, y'know, if you ever feel a bit lost...
+h_happy:Feel free to come talk to me! about anything!
+h_sad:(Please):musicStop

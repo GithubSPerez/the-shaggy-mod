@@ -1,0 +1,6 @@
+menu
+n_normal:Lo creas o no, mi ojo fue ROBADO!!
+n_sad:Por el Shaggy mas pretensioso que conozco
+s_angry:Lo tomó y se lo metió al bolsillo!!#Como si fuera un centavo en la calle!!!!
+h_happy:Por suerte el Shaggy que lo tomó tambien es el#Shaggy mas torpe
+n_normal:Probablemente se le cae despues de cantar a gritos

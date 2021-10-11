@@ -1,0 +1,17 @@
+bf:normal:-1:boop ba beep?
+rsh:normal:1:My dog?
+rsh:con:1:You mean scooby?
+bf:normal:-1:baa
+rsh:ser:1:He's been dead for a long#time now...
+rsh:con:1:Wait, how do you know about scooby?
+bf:a:-1:...
+gf:normal:-1:We literally saw your dog last week
+rsh:ang:1:Oh so shaggy was here.
+bf:a:-1:..baa?
+rsh:ser:1:No, we're not the same person
+rsh:ser:1:I guess he visited you when I#told him about your power
+rsh:normal:1:Also, did you hear he's in a#tournament right now?
+rsh:smug:1:His next fight starts soon and I don't wanna#miss it and stuff.
+bf:normal:-1:..beep
+rsh:smug:1:One more?
+rsh:smug:1:Alright...

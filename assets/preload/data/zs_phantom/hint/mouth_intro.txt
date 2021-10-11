@@ -1,0 +1,5 @@
+continue:hint/mouth
+n_normal:Una de mis piezas que faltan es mi BOCA
+n_happy:Con mi BOCA puedo HABLAR
+n_con:Sin ella, solo te puedo hablar a ti
+n_normal:(Y a tu gee eff creo quizas no se#solo me está mirando de forma desafiante)

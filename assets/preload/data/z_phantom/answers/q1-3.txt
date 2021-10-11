@@ -1,0 +1,9 @@
+menu
+n_happy:Oh that's the fancy name we use for the multiverse
+n_normal:It looks like a really really long hallway with lots and#lots of doors
+n_normal:The doors lead to different universes, that's how the#Shaggys got here in the first place
+n_con:Those two really like to hop from place to place...
+n_normal:Anyways yeah I hope you aren't too surprised
+n_happy:There's also multiple versions of you!!
+n_con:And... a hole lot of versions of a skeleton#for some reason...
+h_happy:Who knows, maybe you'll meet your counterparts#someday!!

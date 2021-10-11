@@ -1,0 +1,4 @@
+prompt:I'll accept the deal:No:intro/reco/yes:intro/reco/no
+s_con:Oh
+n_normal:You're back!
+n_con:Um... Have you reconsidered?

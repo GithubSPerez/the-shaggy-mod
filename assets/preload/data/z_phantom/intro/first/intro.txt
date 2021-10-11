@@ -1,0 +1,17 @@
+prompt:Accept:Who are you:intro/first/followups/accept:intro/first/followups/who
+n_happy:Oh hello there!!!
+n_happy:VERY happy to see you bee eff.:introMusic
+n_happy:Very happy to talk to a living thing
+n_normal:I've been in solitary confinement for
+n_trauma:a couple of eons
+n_normal:Anyways I can see you got a part of my face#ain't I right??
+n_happy:I kinda need that to go right back to where#it belongs... (my face)
+n_normal:But I wouldn't want to just
+n_trauma:SNATCH IT without giving you anything in return...
+n_normal:So I will offer you a deal!!
+n_normal:You give me that thing you found and help me find#my other shit
+n_normal:And I give you...
+h_normal:3000 RAP BATTLES!!!!
+h_happy:YOU LIKE THOSE RIGHT??
+n_normal:So what do you say bee
+n_happy:Do we have a deal??

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="shaggy_green_face.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="face0000" x="1084" y="10" width="443" height="1076" frameX="-19" frameY="-23" frameWidth="585" frameHeight="1099"/>
+	<SubTexture name="face0001" x="10" y="10" width="585" height="1032" frameX="0" frameY="-23" frameWidth="585" frameHeight="1099"/>
+	<SubTexture name="face0002" x="615" y="10" width="449" height="1073" frameX="-27" frameY="0" frameWidth="585" frameHeight="1099"/>
+</TextureAtlas>

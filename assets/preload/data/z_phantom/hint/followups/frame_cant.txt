@@ -1,0 +1,10 @@
+menu
+n_sad:WHAT?! What do you mean?
+n_con:oh yeah he makes you float (why?? to look cool????)
+n_normal:Yeah no it's not like what you think
+n_happy:There's a rule that every universe in the hall abides by
+h_normal:"If you standing on it, the platform is YOURS!!"
+n_happy:Basically he can't control the height of your platform
+n_normal:So just
+h_happy:GO DOWN!! PRESS DOWN!! HOLD DOWN!!!!
+h_sad:Or up if u want idk you have full control over it

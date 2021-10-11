@@ -1,0 +1,12 @@
+menu
+n_normal:Oh you wanna know how I got here?
+n_happy:Funny story, I actually don't know
+n_con:In one moment I was doing my job and the next thing#I know I am completely torn apart
+n_sad:I had a vision though, I heard a strange voice before#I was transformed
+n_sad:But...
+n_con:I don't wanna get into it right now.
+n_normal:I have no idea why this place was chosen, I guess it has#something to do with the extreme time#discontiuation in here
+n_con:I've spent eons on this place and yet you're still 19
+n_con:...
+h_normal:WELL HERE I AM NOW
+h_sad:After some bad luck I lost my face and I can't do much
