@@ -32,6 +32,7 @@ class CreditsState extends MusicBeatState
 		['Joan Atlas', 'tono', 'Composer of "Dissasembler"', 'https://twitter.com/joan_atlas', 0xFF543BC9],
 		['Special thanks'],
 		['Cony', 'cony', 'Artist of the epic Shaggy close-up', 'https://www.instagram.com/con0mmm/', 0xFFEAE4B0],
+		['Kade Dev', 'kade', 'Updated input system', 'https://twitter.com/KadeDeveloper', 0xFF4A6747],
 		['Pointy', 'pointy', 'Playtester', 'https://twitter.com/PointyyESM', 0xFF28389D],
 		['Sulayre', 'sulayre', 'Matt sprites (used in story menu)', 'https://twitter.com/Sulayre', 0xFF9F60CA],
 		['McChomk', 'mcchomk', 'Transcribed the OG dialogue into\nthe new dialogue file system', 'https://mcchomk.itch.io', 0xFFBE672D],
