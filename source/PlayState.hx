@@ -3652,6 +3652,7 @@ class PlayState extends MusicBeatState
 			daRating = 'shit';
 			score = 50;
 			songMisses++;
+			combo = 0;
 			health -= 0.4;
 		}
 		else if (noteDiff > Conductor.safeZoneOffset * 0.75)
