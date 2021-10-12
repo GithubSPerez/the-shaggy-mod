@@ -4014,11 +4014,12 @@ class PlayState extends MusicBeatState
 				else if (notesHitArray.length > 0) {
 					for (i in 0...controlArray.length) {
 						if(controlArray[i] && notesDatas.indexOf(i) == -1) {
-							if(canMiss) {
+							/*if(canMiss) {
 								noteMiss(i);
 								callOnLuas('noteMissPress', [i]);
 								break;
-							}
+							}*/ 
+							// fuck ur anti mash
 						}
 					}
 					for (i in 0...notesHitArray.length) {
