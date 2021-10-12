@@ -3647,15 +3647,13 @@ class PlayState extends MusicBeatState
 
 		var daRating:String = "sick";
 
-		if (noteDiff > Conductor.safeZoneOffset * 0.55)
+		if (noteDiff > Conductor.safeZoneOffset * 0.85)
 		{
 			daRating = 'shit';
-			score = 50;
-			songMisses++;
-			combo = 0;
-			health -= 0.1;
+			score = -100;
+			health -= 0.35;
 		}
-		else if (noteDiff > Conductor.safeZoneOffset * 0.4)
+		else if (noteDiff > Conductor.safeZoneOffset * 0.6)
 		{
 			daRating = 'bad';
 			score = 100;
@@ -4012,6 +4010,8 @@ class PlayState extends MusicBeatState
 				}
 				notesHitArray.sort(sortByShit);
 
+				var alreadyHit:Array<Int> = new Array<Int>();
+
 				if (perfectMode)
 					goodNoteHit(notesHitArray[0]);
 				else if (notesHitArray.length > 0) {
@@ -4027,7 +4027,8 @@ class PlayState extends MusicBeatState
 					}
 					for (i in 0...notesHitArray.length) {
 						var daNote = notesHitArray[i];
-						if(controlArray[daNote.noteData]) {
+						if(controlArray[daNote.noteData] && !alreadyHit.contains(daNote.noteData)) {
+							alreadyHit.push(daNote.noteData);
 							goodNoteHit(daNote);
 							if(ClientPrefs.ghostTapping)
 								boyfriend.holdTimer = 0;
