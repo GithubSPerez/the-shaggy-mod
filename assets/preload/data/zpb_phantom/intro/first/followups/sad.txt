@@ -1,0 +1,12 @@
+forceExit
+n_con:...
+n_sad:Oh...:musicStop
+n_sad:Eu te entendo completamente
+s_normal:Me parece que eu terei que esperar
+h_sad:Mais algumas eras
+n_con:Para procurar por mais ajuda...
+n_sad:Agradeço mesmo assim bee
+n_sad:Se você reconsiderar... eu estarei aqui,#observando. Não irei mover um músculo.
+n_con:Não consigo fazer isso de qualquer forma haha
+n_sad:...
+s_normal:Tchauzinho

@@ -1,0 +1,17 @@
+bf:normal:-1:boop ba beep?
+rsh:normal:1:Meu cachorro?
+rsh:con:1:Você quer dizer, o Scooby?
+bf:normal:-1:baa
+rsh:ser:1:Ele morreu já faz muito tempo...
+rsh:con:1:Espera, como você sabe sobre o Scooby#meu fi?
+bf:a:-1:...
+gf:normal:-1:A gente literalmente viu ele semana#passada...
+rsh:ang:1:Ah, então o Salsicha esteve aqui.
+bf:a:-1:..baa?
+rsh:ser:1:Não, a gente não é a mesma pessoa.
+rsh:ser:1:Eu acho que ele foi te visitar quando#eu disse pra ele sobre o seu poder.
+rsh:normal:1:Aliás, você ouviu falar que ele tá em#um torneio agora mesmo?
+rsh:smug:1:A próxima luta dele vai começar em breve, e#eu não quero perder isso.
+bf:normal:-1:..beep
+rsh:smug:1:Mais uma?
+rsh:smug:1:Beleza...

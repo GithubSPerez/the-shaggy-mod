@@ -1,0 +1,17 @@
+prompt:Aceitar:Quem é você:intro/first/followups/accept:intro/first/followups/who
+n_happy:Oh olá você!!!
+n_happy:PRAZER em te conhecer bê efi.:introMusic
+n_happy:Estou feliz em falar com um ser vivo
+n_normal:Eu estive nesta prisão solitária por
+n_trauma:algumas eras
+n_normal:Enfim, vejo que você tem parte da minha cara,#não é mesmo??
+n_happy:Vou precisar dela para retorná-la para onde ela#pertence... (meu rosto)
+n_normal:Mas eu não quero simplesmente
+n_trauma:ARRANCá-LA de você sem te dar algo em retorno...
+n_normal:Então eu vou te oferecer uma proposta!!
+n_normal:Você me dá essa coisa que você achou e me ajuda#a encontrar o resto
+n_normal:E eu te darei...
+h_normal:3000 BATALHAS DE RAP!!!!
+h_happy:VOCê GOSTA DELAS, NãO GOSTA??
+n_normal:Então, o que me diz bê?
+n_happy:Temos um acordo??

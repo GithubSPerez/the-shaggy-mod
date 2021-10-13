@@ -1,0 +1,10 @@
+menu
+n_sad:COMO é?! O que quer dizer com isso?
+n_con:ah sim ele te faz voar#(pra que?? pra parecer legal????)
+n_normal:Assim, não funciona do jeito que você pensa
+n_happy:Tem uma regra que é válida pra todo#universo no corredor
+h_normal:"Se você estiver em cima dela, a#plataforma é SUA!!"
+n_happy:Basicamente, ele não consegue controlar#a altura da sua plataforma
+n_normal:Então só tipo
+h_happy:VAI PRA BAIXO!! APERTA PRA BAIXO!!#SEGURA PRA BAIXO!!!!
+h_sad:Ou pra cima também sei lá, cê tem#controle total sobre ela

@@ -1,0 +1,8 @@
+sh:ser:1:Você viu o Scoobs por aí?
+bf:normal:-1:bap boop
+sh:con:1:Vish Jesus! Eu tipo, também não achei ele#ainda! Ele deve estar tão assustado...
+bf:normal:-1:boop bap
+sh:con:1:Huh? cantar de novo?
+sh:ser:1:Sabe, talvez cantar a música favorita do#Scooby chame a atenção dele coisa assim.
+sh:con:1:Se ele nos conseguir ouvir...
+sh:normal:1:Beleza, bora lá.

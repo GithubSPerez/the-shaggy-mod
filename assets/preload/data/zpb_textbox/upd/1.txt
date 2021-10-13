@@ -1,0 +1,13 @@
+rsh:ser:1:...
+rsh:con:1:Por que você me seguiu?
+bf:normal:-1:beepee bo
+rsh:ang:1:Jesus meu fi, sei não.
+rsh:ang:1:Tipo, como que você se sentiria se#outra pessoa controlasse sua existência?
+rsh:sad:1:...
+rsh:ser:1:M- Me desculpa cara, não é nada sério assim.
+bf:normal:-1:...
+rsh:con:1:Deixô adivinhar, você quer cantar de novo?
+bf:normal:-1:beep bap boop
+rsh:con:1:Beleza, mas tipo, bora ficar de boa um pouco.
+rsh:ser:1:Eu não quero fazer isso muito difícil.
+rsh:kill:1:Eu poderia parar de existir, sabe?

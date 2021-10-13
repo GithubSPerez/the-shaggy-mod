@@ -1,0 +1,12 @@
+menu
+n_normal:Oh você quer saber como que eu cheguei aqui?
+n_happy:Engraçado, já que eu não faço ideia
+n_con:Um dia eu estava fazendo meu trabalho e de repente#minha face foi rasgada
+n_sad:Porém eu tive uma visão, eu ouvi uma voz logo#antes de ser transformado
+n_sad:Mas...
+n_con:Não quero tocar no assunto agora.
+n_normal:Eu não faço ideia do porquê esse lugar foi#escolhido, mas deve ter algo a ver com a#descontinuação do tempo aqui
+n_con:Eu passei eras nesse lugar e você ainda tem 19 anos
+n_con:...
+h_normal:BOM AQUI ESTOU EU AGORA
+h_sad:Após um pouco de azar eu perdi meu rosto e eu#não tenho muito o que fazer

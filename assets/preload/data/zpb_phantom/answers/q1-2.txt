@@ -1,0 +1,17 @@
+menu
+n_normal:Antes de ficar preso nessa máscara, #eu era algo a mais.
+n_trauma:Algo poderoso
+n_trauma:Eu era temido por muitos, desprezado por muitos outros
+n_happy:Eu não poderia pedir por mais poder!! #Eu tinha tudo em mãos...
+n_con:Mas quando você é poderoso demais, alguém#arranca esse poder de você
+n_sad:Sem piedade
+s_normal:...:fadeOut
+s_angry:Existe um ser que abusa do poder dele,#alguém tão poderoso que não dá pra imaginar.#O ser que me deixou desse jeito.
+s_con:Não estou falando sobre deuses de mitologias#antigas ou formas god incolores.
+s_con:Estou falando de omnipotência total
+s_con:Mas assim...
+s_normal:Quando você tem esse poder, quem não quer agir#como se o multiverso estivesse em suas mãos?
+s_con:...
+h_sad:MAS NãO SE PREOCUPE COM ISSO!!!:fadeIn
+n_happy:Com a sua ajuda nós podemos superar a omnipotência!!
+n_normal:eu acho

@@ -1,0 +1,5 @@
+prompt:Sim:Não:hint/followups/eye_yes:hint/followups/eye_no
+n_normal:A única parte faltando de mim é o meu olho
+n_happy:Ele tem mais importância do que só#visão
+n_normal:...
+h_normal:Você acreditaria em mim se eu disesse que#ele atira LASERS??

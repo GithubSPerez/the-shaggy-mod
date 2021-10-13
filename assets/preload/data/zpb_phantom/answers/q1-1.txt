@@ -1,0 +1,8 @@
+menu
+n_normal:Me chamo Zephyrus
+n_happy:Mas eu decidi me chamar de "Zephyrus fantasma"#temporariamente
+n_con:Já que, sabe, no momento eu não existo
+h_normal:Isso soa até que LEGAL se você me pergunta!!
+h_normal:...
+n_normal:Ou só me chame de Zeph, que nem meus amigos#fazem (Eu não tenho amigos)
+n_happy:Enfim, do que eu estava falando mesmo...?

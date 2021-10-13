@@ -1,0 +1,5 @@
+continue:hint/horn
+n_normal:Uma das minhas partes faltando é#o meu chifre
+h_happy:Aquela coisa vívida e laranja que me#dá poder!!! (não)
+n_happy:Não posso viver sem ela
+n_trauma:ah espera eu posso sim

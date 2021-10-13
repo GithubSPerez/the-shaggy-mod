@@ -1,0 +1,14 @@
+sh:smug:1:Eu te assustei, né?
+bf:a:-1:bee
+sh:normal:1:Eu não preciso nem de um estalar de dedos#pra tipo, salvar todas as pessoas morrendo#nesse planeta.
+gf:normal:-1:Eu não teria matado seu cachorro se#eu não soubesse disso.
+sh:ser:1:...
+sh:normal:1:De qualquer jeito, pra te falar a verdade#o Scooby estava procurando por você.
+sh:normal:1:A gente veio para o seu universo por causa#que ouvimos que um adolescente era#tipo, imortal.
+sh:smug:1:E você me venceu de primeira!
+sh:con:1:Da minha perspectiva pelo menos...
+sh:con:1:Eu adivinho que você tem algum tipo de#habilidade de resetar o tempo, então que#bom que eu não usei todo meu poder contra você.
+bf:normal:-1:baap be?
+sh:normal:1:0.002%
+bf:a:-1:a
+sh:normal:1:Bem, eu tenho que cair fora agora.

@@ -1,0 +1,7 @@
+sh:con:1:...
+sh:smug:1:Eu tô vendo que você percebeu que eu não#tô sério?
+bf:normal:-1:baap?
+sh:normal:1:Tipo, você percebeu que eu não tinha#controle total da sua plataforma...
+sh:smug:1:..e aí você só me ignorou e ficou tipo,#só indo lá pra baixo!
+bf:normal:-1:bep bee?
+sh:normal:1:É, não se preocupa. Eu consigo salvar ele.

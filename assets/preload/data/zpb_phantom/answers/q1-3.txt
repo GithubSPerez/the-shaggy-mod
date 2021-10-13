@@ -1,0 +1,9 @@
+menu
+n_happy:Ah esse é o nome chique que a gente dá pro#multiverso
+n_normal:é tipo um corredor imenso com centenas#de portas
+n_normal:As portas levam a lugares diferentes, foi desse#jeito no qual os Salsichas chegaram aqui
+n_con:Aqueles dois adoram pular de lugar pra lugar...
+n_normal:Enfim, aposto que você não esteja tão surpreso
+n_happy:Também existem várias versões de você!!
+n_con:E também... várias versões de um certo esqueleto#por algum motivo...
+h_happy:Quem sabe, talvez você conheça seus sósias#algum dia!!

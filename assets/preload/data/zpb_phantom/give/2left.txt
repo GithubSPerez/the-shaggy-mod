@@ -1,0 +1,8 @@
+menu
+h_happy:SIMBORA!!!!
+n_happy:Faltam 2 peças!! Estou perto de me completar!!
+n_happy:Você é demais bê, obrigado por confiar#em mim nisso
+n_normal:Curiosidade - Eu sou físicamente incapaz#de ser maneiro
+h_happy:Fantasmas não podem ser encostados#então eles não tem temperatura!!
+h_normal:. . .
+h_sad:Certo??

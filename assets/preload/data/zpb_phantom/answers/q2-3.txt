@@ -1,0 +1,15 @@
+menu
+n_normal:Oh não é bem tipo uma família, tá mais pra...
+n_normal:Pense nela como se fosse um criador e suas criações
+n_happy:Nós só chamavamos nosso criador de pai
+n_normal:O nome dele era 'O Implacável Deus do Sol'
+n_con:Meus dois irmãos se chamavam 'Excelsior o Gato' e#'Leão Grande'
+n_con:Parando pra pensar, o que diabos são esses#nomes????
+n_normal:Tanto faz.
+n_con:Mas eu nunca conheci o Excelsior 
+n_sad:O Leão Grande o matou.:songScary
+h_sad:BACANA Né?? Ter um MANíACO como irmão?????
+n_sad:... Perdão.
+n_con:No fim eu ultrapassei o poder dele, até mesmo o#do meu pai:songGood
+n_sad:E quando o Leão tentou vir atrás do meu pai,#eu fiz o que tinha que ser feito.:fadeOut
+h_normal:Imagina tentar matar a sua família por causa de#uma DISCORDâNCIA?!!?:fadeIn

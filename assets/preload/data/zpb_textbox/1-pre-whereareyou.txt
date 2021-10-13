@@ -1,0 +1,8 @@
+sh:ser:1:Ei, vocês dois.
+sh:ser:1:Eu tô procurando por um cachorro que#se perdeu nessa mansão
+sh:ser:1:O nome dele é Scooby, vocês viram ele#ou coisa assim?
+bf:normal:-1:beep bap boop
+sh:con:1:Você quer tipo, cantar? Vish meu fi,# mas eu nem achei o Scooby ainda.
+bf:normal:-1:bop bee bap 
+sh:ser:1:Eu também espero...
+sh:smug:1:Beleza, mas só algumas músicas, eu#não conheço muitas.

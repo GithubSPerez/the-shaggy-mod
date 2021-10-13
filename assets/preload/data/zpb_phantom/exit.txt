@@ -1,0 +1,10 @@
+exit
+n_happy:Até mais!!
+n_happy:Te vejo em...:addNext
+n_con:uh...:tied
+n_normal:Voltando pro menu
+n_happy:Te vejo por aí!!
+n_happy:Cuidado pra não morrer!!:addNext
+n_normal:Ah é mesmo cê não consegue:tied
+n_normal:Adeus!!
+n_normal:Tchau tchau!!

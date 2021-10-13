@@ -1,0 +1,3 @@
+continue:hint/eye
+n_happy:Acertou, só tô brincando mesmo hehe
+n_normal:Eu nem preciso disso, posso rasgar#um planeta só de olhar pra ele

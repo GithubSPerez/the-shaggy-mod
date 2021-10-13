@@ -1,0 +1,7 @@
+prompt:Understood:I can't:hint/followups/frame_understood:hint/followups/frame_cant
+n_normal:O resto do meu rosto foi jogado pra#dentro do chão
+n_con:De alguma forma
+n_normal:E tá enterrado debaixo da mansão (como caralhos)
+n_happy:Você pode ir pra música aonde você#enfurece o Salsicha pra ele quebrar#o chão inteiro de novo
+n_normal:E assim
+h_normal:Você consegue pegá-lo!!

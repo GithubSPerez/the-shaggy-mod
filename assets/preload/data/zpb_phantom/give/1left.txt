@@ -1,0 +1,6 @@
+menu
+h_happy:Aí SIM
+n_happy:Puta merda!! Só mais uma peça restando!!
+n_normal:Eu acredito em você bê. Essa é a#última parte da sua aventura
+n_normal:Comigo
+h_happy:Curiosidade - confiar em mim é uma#escolha incorreta

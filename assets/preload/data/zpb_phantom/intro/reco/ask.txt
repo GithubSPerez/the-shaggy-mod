@@ -1,0 +1,4 @@
+prompt:Eu aceito a proposta:Não:intro/reco/yes:intro/reco/no
+s_con:Oh
+n_normal:Você voltou!
+n_con:Uh... você por acaso mudou de ideia?

@@ -31,6 +31,8 @@ class CreditsState extends MusicBeatState
 		['Saruky', 'saruky', 'Composer of "Thunderstorm"', 'https://twitter.com/Saruky__', 0xFFDA0837],
 		['Joan Atlas', 'tono', 'Composer of "Dissasembler"', 'https://twitter.com/joan_atlas', 0xFF543BC9],
 		['Special thanks'],
+		['Soulegal', 'soulegal', 'Brazilian-Portuguese Co-Translator', 'https://twitter.com/nickstwt', 0xFFBF2322],
+		['Aizakku', 'aizakku', 'Brazilian-Portuguese Co-Translator', 'https://twitter.com/ItsAizakku', 0xFFC7CDD6],
 		['Cony', 'cony', 'Artist of the epic Shaggy close-up', 'https://www.instagram.com/con0mmm/', 0xFFEAE4B0],
 		['Kade Dev', 'kade', 'Updated input system', 'https://twitter.com/KadeDeveloper', 0xFF4A6747],
 		['Pointy', 'pointy', 'Playtester', 'https://twitter.com/PointyyESM', 0xFF28389D],

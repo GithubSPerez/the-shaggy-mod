@@ -1,0 +1,15 @@
+rsh:normal:1:Isso é adeus, por enquanto.
+gf:normal:-1:Espera, tem mais de vocês?
+rsh:ser:1:Uhh... Eu tipo, acho que sim.
+rsh:ser:1:Mas além do Salsicha que você conhece,#eu só conheço mais um outro.
+bf:burn:-1:bap bop beep!!
+rsh:ser:1:Ah não, você não iria querer...
+rsh:smug:1:Quer saber? quem eu tô enganando,#claro que você iria.
+rsh:normal:1:Eu digo pra ele te visitar quando eu ir embora.
+rsh:smug:1:Mas toma cuidado, aquele cara é meio#egocêntrico.
+rsh:smug:1:Eu não sei como ele faz, mas ele não#precisa do corredor para viajar#entre dimensões e coisa assim.
+rsh:normal:1:Ele talvez te pegue de surpresa.
+gf:happy:-1:Ah, é?
+bf:burn:-1:bap!
+rsh:smug:1:Heh, beleza, beleza.
+rsh:normal:1:Tipo, te vejo por aí gente!

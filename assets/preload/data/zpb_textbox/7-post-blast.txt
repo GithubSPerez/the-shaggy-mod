@@ -1,0 +1,8 @@
+bf:normal:-1:beep boo baa
+bf:normal:-1:bap bee beep boop bee
+bf:normal:-1:bap bap bee pop
+sh:con:1:Isso é tipo, muito rude meu fi...#Eu realmente-
+bf:normal:-1:bee boop
+sh:ang:1:...
+sh:smug:1:Heh.
+sh:smug:1:Babaca.

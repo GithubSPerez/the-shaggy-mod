@@ -1,0 +1,8 @@
+wbsh:normal:1:Bem, bem, bem, olha só oque temos aqui.
+wbsh:smug:1:Você parece um pouco perdido.
+bf:burn:-1:beep bop bap, skdee bop!
+wbsh:normal:1:Cacete, sério mesmo?
+wbsh:normal:1:Cê tem coragem, vindo assim no meu domínio#e falando coisa desse tipo.
+wbsh:smug:1:Espero que você esteja preparado#pra levar uma surra, azulzinho.
+bf:burn:-1:bo beep baap bo
+wbsh:laugh:1:Eu vou fazer você engolir essas palavras,#se prepare para ser destruído!

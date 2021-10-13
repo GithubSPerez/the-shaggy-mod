@@ -1,0 +1,8 @@
+prompt:Ah tá certo:Mas eles vencem do goku não é:answers/followups/okay:answers/followups/goku
+n_normal:Espera...
+n_con:Não me diga que você caiu nessa palhaçada de#porcentagem??
+h_happy:HAHAHA BOBãO ELES Só ESTãO ZOANDO COM#A SUA CARA!!
+n_happy:Digo, não me leve a mal, eles SãO muito fortes,#mas...
+n_con:Como caralhos um ser vivo saberia da porcentagem#exata do poder dele, até as decimais?
+n_normal:Você precisaria de um leitor externo (no qual eu tinha)
+h_happy:Me deixa te contar, os números que eles te dão#são apenas MERAS exagerações!!

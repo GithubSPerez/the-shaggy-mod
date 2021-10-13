@@ -1,0 +1,8 @@
+menu
+n_con:Eu perdi o meu chifre por conta própria mesmo
+n_normal:E eu meio que deixei ele
+n_normal:Lá fora
+h_sad:Fora do plano de existência??
+n_con:Digo, não me entenda mal, tá fora da mansão SIM
+n_normal:Mas sabe, você precisa esperar até que o#tecido do espaço gire ou coisa assim
+n_happy:Assim você pode dar uma olhada pra FORA da#realidade!!

@@ -1,0 +1,5 @@
+facePartsIntro
+n_happy:Ah sim as partes da minha cara
+n_normal:Foram tiradas de mim e agora estão#espalhadas por aí
+n_happy:Mas elas não estão muito longe!!
+h_normal:Você vai conseguir achá-las sem dificuldade!!#CONFIA EM MIM!!

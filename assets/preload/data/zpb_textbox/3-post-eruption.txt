@@ -1,0 +1,5 @@
+sh:normal:1:Você é tipo, bom mesmo e coisa assim.
+sh:normal:1:Eu num quero te entediar meu fi, então#eu vou cantar mais rápido dessa vez.
+bf:normal:-1:beep boop boop bap bee
+sh:ser:1:...
+sh:smug:1:Beleza, beleza...#Bora lá cara!

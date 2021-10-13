@@ -1,0 +1,13 @@
+menu
+s_angry:Ah eu odeio aquele cara
+s_con:Não os bacanas, o altão mesmo
+n_normal:Mas todos tem algo em comum
+n_normal:Seus poderes incríveis (zzzzz)
+n_happy:Os Salsichas são bem poderosos, eu diria#que eles são bem fortes.
+n_normal:Eu estive seguindo a jornada deles desde o começo,#antes de me tornar em uma máscara!!
+n_happy:Eles me pareciam interessantes...
+n_normal:(exceto o altão)
+n_sad:A vida deles foi como uma tragédia!! #é realmente triste...
+n_normal:(exceto o altão)
+n_con:O Salsicha vermelho era forte mentalmente,#mesmo com a vida dolorosa dele
+n_normal:Quanto ao verde...

@@ -1,0 +1,10 @@
+wbsh:normal:1:Caramba, impressionante!
+wbsh:smug:1:De alguma forma você conseguiu me derrotar!
+bf:normal:-1:bee...
+wbsh:normal:1:Você deve tá bem contente consigo mesmo.
+wbsh:smug:1:Eu tô feliz que eu pude fazer você se sentir#assim,mesmo acabando com você.
+bf:a:-1:...
+wbsh:smug:1:Bem, então é isso.
+wbsh:normal:1:Eu vou tipo, cair fora agora.
+wbsh:smug:1:Se você conseguiu me derrotar, com certeza#você vai descobrir como sair desse lugar.
+wbsh:laugh:1:Falow pra sempre, otário!

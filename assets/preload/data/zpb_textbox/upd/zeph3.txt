@@ -1,0 +1,3 @@
+zsh:normal:1:Bem, aquilo foi divertido!!
+zsh:normal:1:Te vejo daqui a 10 anos, B.
+zsh:laugh:1:Eu vou estar cheio de surpresas#então é melhor você estar pronto!!

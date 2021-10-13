@@ -1,0 +1,6 @@
+menu
+h_happy:Você achou todas as minhas peças!! Meu rosto está#completo!!!
+n_normal:Se você puder me levar pra onde o Salsicha#da Warner Bros está, isso seria bacana
+n_trauma:Eu quero fazer algo:songScary
+h_normal:Mas é segredo então nem pergunte!!:songGood
+n_happy:Só me leve até lá, você não vai se#arrepender

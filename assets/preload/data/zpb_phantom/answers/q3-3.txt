@@ -1,0 +1,22 @@
+markReplace:backstory:answers/q3-3-2
+n_normal:O passado dele?
+n_normal:O altão não passou por tanta coisa, por#isso ele é o mais fraco
+n_sad:Mas os outros passaram por MUITA coisa.
+n_normal:O verdinho obteve o poder dele aos 17, o#vermelho aos 18
+n_happy:Eles eram bem jovens, eu acho que essa#foi a chave para ganhar tanto poder assim
+n_con:Porém teve um momento marcante na vida deles...:fadeOut
+n_sad:O Salsicha tinha essa gangue inteira de amigos.#Mas a um ponto, algo terrível aconteceu.
+n_sad:Um dos amigos dele ficou insano e...
+n_sad:Ela matou a todos eles.
+s_normal:O Salsicha Verde amava ela profundamente,#foi doloroso de ver ela perder a#cabeça daquele jeito.
+s_normal:Ele consegue impedir ela de matar o Scooby, antes#dela tomar a própria vida.
+n_sad:O vermelho não foi tão sortudo. Ele não tinha#uma conexão tão forte com ela então ele não#estava lá quando o massacre aconteceu.
+s_normal:Ele só voltou do almoço pra achar...#A gangue inteira morta...
+n_sad:...
+n_con:Eles ficaram cada vez mais fortes desde então.
+n_sad:Eles estavam devastados no momento,#especialmente o Salsicha verde.
+n_con:Conforme o tempo passa, eles superaram o#acontecimento:fadeIn
+n_normal:Agora eles tem 70 anos e focam em descobrir#lugares pelo corredor!
+n_normal:Eles ficam cada vez mais fortes e acham mais#oponentes.
+n_happy:é bom ver eles felizes assim.
+n_con:Ah e depois de um ponto eles conseguem#cantar bem agora??

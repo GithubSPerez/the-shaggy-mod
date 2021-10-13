@@ -1,0 +1,10 @@
+menu
+n_happy:E aí!!
+n_normal:Bem vindo:addNext
+n_happy:ao:tied
+n_normal:Olá
+n_normal:Bem vindo
+n_happy:Como vai
+n_normal:Saudações.
+n_happy:Oi!!!
+n_happy:Bem vindo de volta!!

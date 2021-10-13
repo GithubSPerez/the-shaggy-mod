@@ -1,0 +1,10 @@
+menu
+n_con:Acho que a minha boca tá#preso no teto de uma mansão
+n_normal:E ela caiu a algum ponto
+n_happy:Me pergunto por quê (Eu totalmente sei o porquê)
+h_happy:A música que cês tavam cantando ERA#UMA BOSTA!!
+h_happy:Minha boca riu tanto que ela só
+h_normal:caiu
+h_sad:Eu acho que foi uma das músicas do#capítulo 2
+n_happy:Então uhh, pega a minha boca quando#ela cair do teto
+n_normal:Deve ser fácil, certo?

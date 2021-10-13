@@ -1,0 +1,4 @@
+sh:normal:1:Zoinks! Eu perdi o controle por um#segundinho...
+sh:normal:1:Desculpa cara, eu não quero fazer isso#injusto pra você ou coisa do tipo.
+bf:normal:-1:beep boop
+sh:smug:1:Okay, tipo, se prepara agora.

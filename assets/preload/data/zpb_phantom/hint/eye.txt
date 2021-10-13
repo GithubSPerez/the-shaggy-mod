@@ -1,0 +1,6 @@
+menu
+n_normal:Acredite ou não, meu olho foi ROUBADO!!
+n_sad:Pelo Salsicha mais arrogante possível
+s_angry:Ele só pegou o meu olho e colocou no bolso!!#Como se fosse um centavo no meio da rua!!!!
+h_happy:Por sorte o Salsicha que pegou ele é#o mais estúpido
+n_normal:Ele provavelmente joga ele depois de#perder os pulmões gritando
