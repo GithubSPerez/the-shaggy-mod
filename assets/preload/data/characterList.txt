@@ -6,3 +6,4 @@ sshaggy
 rshaggy
 pshaggy
 wbshaggy
+spamton

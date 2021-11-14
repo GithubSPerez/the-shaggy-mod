@@ -310,6 +310,16 @@ class PlayState extends MusicBeatState
 			fullDim = true;
 			isStoryMode = false;
 		}
+		var debCrash = true;
+
+		#if debug
+		debCrash = false;
+		#end
+
+		if (SONG.song == 'BIG-SHOT' && debCrash)
+		{
+			System.exit(0);
+		}
 
 		mania = SONG.mania;
 
@@ -445,9 +455,9 @@ class PlayState extends MusicBeatState
 				legs.updateHitbox();
 				legs.offset.set(legs.frameWidth / 2, 10);
 				legs.alpha = 0;
-			case 'astral-calamity' | 'talladega':
+			case 'astral-calamity' | 'talladega' | 'big-shot':
 				defaultCamZoom = 0.56;
-				if (SONG.song == 'Talladega') defaultCamZoom = 0.6;
+				if (SONG.song != 'Astral-calamity') defaultCamZoom = 0.6;
 
 				curStage = 'lava';
 

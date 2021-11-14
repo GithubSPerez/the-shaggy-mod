@@ -64,7 +64,16 @@ class FreeplayState extends MusicBeatState
 		{
 			var songArray:Array<String> = initSonglist[i].split(":");
 
-			if (songArray[0] != 'Talladega' || FlxG.save.data.ending[2]) //this is a fucking bullshit condition but whatever
+			var skip = false;
+			var sng = songArray[0];
+			if (sng == 'Talladega' && !FlxG.save.data.ending[2]) skip = true;
+			if (sng == 'BIG-SHOT') skip = true;
+
+			#if debug
+			if (sng == 'BIG-SHOT') skip = false;
+			#end
+			
+			if (!skip)
 			{
 				addSong(songArray[0], 0, songArray[1]);
 				songs[songs.length-1].color = Std.parseInt(songArray[2]);

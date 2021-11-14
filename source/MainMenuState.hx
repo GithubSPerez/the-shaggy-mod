@@ -171,6 +171,10 @@ class MainMenuState extends MusicBeatState
 			if (FlxG.keys.justPressed.TWO) FlxG.save.data.p_maskGot[1] = true;
 			if (FlxG.keys.justPressed.THREE) FlxG.save.data.p_maskGot[2] = true;
 			if (FlxG.keys.justPressed.FOUR) FlxG.save.data.p_maskGot[3] = true;
+			if (FlxG.keys.justPressed.FIVE) FlxG.save.data.ending[0] = true;
+			if (FlxG.keys.justPressed.SIX) FlxG.save.data.ending[1] = true;
+			if (FlxG.keys.justPressed.SEVEN) FlxG.save.data.ending[2] = true;
+			if (FlxG.keys.justPressed.ANY) FlxG.sound.play(Paths.sound('confirmMenu'));
 		}
 		#end
 		

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				346,
+				-71
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "phantom_left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				106,
+				-196
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "phantom_down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				87,
+				207
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "phantom_up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				34,
+				-98
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "phantom_right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "phantom_idle0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/shaggy_spamton",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "spamton",
+	"flip_x": false,
+	"healthbar_colors": [
+		51,
+		51,
+		51
+	],
+	"camera_position": [
+		-30,
+		50
+	],
+	"sing_duration": 12,
+	"scale": 1
+}
