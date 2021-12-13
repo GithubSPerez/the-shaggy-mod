@@ -19,8 +19,8 @@ class WeekData {
 		['Blast', 'Super-saiyan'],
 		['GOD-EATER'],
 		['Press to download!'],
-		['Thunderstorm', 'Dissasembler'],
-		[''],
+		['Soothing-power', 'Thunderstorm', 'Dissasembler'],
+		['Astral-calamity'],
 		[' ']
 	];
 
@@ -35,8 +35,9 @@ class WeekData {
 		'Soothing-power' => false,
 		'Thunderstorm' => true,
 		'Dissasembler' => true,
-		'Astral-calamity' => false,
-		'Talladega' => false
+		'Astral-calamity' => true,
+		'Talladega' => true,
+		'BIG-SHOT' => false
 	];
 
 	// Custom week number, used for your week's score not being overwritten by a new vanilla week when the game updates

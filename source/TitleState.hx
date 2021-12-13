@@ -383,7 +383,7 @@ class TitleState extends MusicBeatState
 				case 3:
 					addMoreText('Perez', -50);
 					addMoreText('Moro', -50);
-					addMoreText('SandPlanet', -50);
+					addMoreText('Pointy', -50);
 					addMoreText('Saruky', -50);
 					addMoreText('Joan Atlas', -50);
 				// credTextShit.text += '\npresent...';
