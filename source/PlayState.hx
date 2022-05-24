@@ -6,6 +6,7 @@ import Discord.DiscordClient;
 import Section.SwagSection;
 import Song.SwagSong;
 import WiggleEffect.WiggleEffectType;
+import NoteHit.HitDataType;
 import flixel.FlxBasic;
 import flixel.FlxCamera;
 import flixel.FlxG;
@@ -3684,33 +3685,15 @@ class PlayState extends MusicBeatState
 
 		var rating:FlxSprite = new FlxSprite();
 		var score:Int = 350;
-
-		var daRating:String = "sick";
-
-		if (noteDiff > Conductor.safeZoneOffset * 0.85)
-		{
-			daRating = 'shit';
-			score = -100;
-			health -= 0.35;
-		}
-		else if (noteDiff > Conductor.safeZoneOffset * 0.6)
-		{
-			daRating = 'bad';
-			score = 100;
-		}
-		else if (noteDiff > Conductor.safeZoneOffset * 0.2)
-		{
-			daRating = 'good';
-			score = 200;
-		}
-
+		
+		var daRating:String = NoteHit.getHitData(noteDiff,HitDataType.RATING);
+		health+=NoteHit.getHitData(noteDiff,HitDataType.HEALTH);
+		
 		if(daRating == 'sick')
-		{
 			spawnNoteSplashOnNote(note);
-		}
 
 		if(!practiceMode && !cpuControlled) {
-			songScore += score;
+			songScore += NoteHit.getHitData(noteDiff,HitDataType.SCORE);
 			songHits++;
 			RecalculateRating();
 			if(scoreTxtTween != null) {
@@ -3724,14 +3707,6 @@ class PlayState extends MusicBeatState
 				}
 			});
 		}
-
-		/* if (combo > 60)
-				daRating = 'sick';
-			else if (combo > 12)
-				daRating = 'good'
-			else if (combo > 4)
-				daRating = 'bad';
-		 */
 
 		var pixelShitPart1:String = "";
 		var pixelShitPart2:String = '';
