@@ -6,7 +6,7 @@ package;
  */
 class NoteHit {
     public static function getHitData(noteDiff:Float,type:HitDataType):Dynamic{
-        var customTimeScale = Conductor.timeScale * 10 / 166 * 10;
+        var customTimeScale = (Conductor.safeZoneOffset / 166) * 10 / 166 * 10;
 
         var rating:String = ""; 
         var score:Int = 0;
